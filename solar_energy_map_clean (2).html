@@ -1,0 +1,3051 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a0bbd8c9ae1aa4e9260012096550976 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9a0bbd8c9ae1aa4e9260012096550976" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9a0bbd8c9ae1aa4e9260012096550976 = L.map(
+                "map_9a0bbd8c9ae1aa4e9260012096550976",
+                {
+                    center: [34.03366761311475, 35.79819195901639],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8977895113c9db78ec026a005abb4cc0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+            var circle_marker_30640421e03a4bf5e04e26ee708ba1cb = L.circleMarker(
+                [33.6939033, 35.8456217],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_362586fda9b51d7c95ce950e5173f8a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e7832f052be6c32b1d32b3df36f7ea8 = $(`<div id="html_4e7832f052be6c32b1d32b3df36f7ea8" style="width: 100.0%; height: 100.0%;">Bekaa Technical Institute</div>`)[0];
+            popup_362586fda9b51d7c95ce950e5173f8a5.setContent(html_4e7832f052be6c32b1d32b3df36f7ea8);
+        
+
+        circle_marker_30640421e03a4bf5e04e26ee708ba1cb.bindPopup(popup_362586fda9b51d7c95ce950e5173f8a5)
+        ;
+
+        
+    
+    
+            var circle_marker_21ea48d93eead6cff430a664d09e8abf = L.circleMarker(
+                [33.6382425, 35.7201481],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_501af043ff5cd0fd6146b43e7069abcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60249cfba05217fd40f3bd0e18d2fb47 = $(`<div id="html_60249cfba05217fd40f3bd0e18d2fb47" style="width: 100.0%; height: 100.0%;">Kherbet Qanafar Technical Institute</div>`)[0];
+            popup_501af043ff5cd0fd6146b43e7069abcb.setContent(html_60249cfba05217fd40f3bd0e18d2fb47);
+        
+
+        circle_marker_21ea48d93eead6cff430a664d09e8abf.bindPopup(popup_501af043ff5cd0fd6146b43e7069abcb)
+        ;
+
+        
+    
+    
+            var circle_marker_051eede37265f6afe2c09be083424eda = L.circleMarker(
+                [33.5706319, 35.8363464],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_dc6716e4bf58e70c8a4e862b818cbe37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69fa0c699889c0e0d71334c018f30d52 = $(`<div id="html_69fa0c699889c0e0d71334c018f30d52" style="width: 100.0%; height: 100.0%;">Kherbet Rouha Technical Institute</div>`)[0];
+            popup_dc6716e4bf58e70c8a4e862b818cbe37.setContent(html_69fa0c699889c0e0d71334c018f30d52);
+        
+
+        circle_marker_051eede37265f6afe2c09be083424eda.bindPopup(popup_dc6716e4bf58e70c8a4e862b818cbe37)
+        ;
+
+        
+    
+    
+            var circle_marker_9c5cdec552a6f1b542e54021e2d55543 = L.circleMarker(
+                [33.789021, 35.8190624],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_34e55e0ef7422720d152e9c3c61fd2a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7825620d8fb586b35d3067225274ef5 = $(`<div id="html_f7825620d8fb586b35d3067225274ef5" style="width: 100.0%; height: 100.0%;">Kob Elias Technical School</div>`)[0];
+            popup_34e55e0ef7422720d152e9c3c61fd2a4.setContent(html_f7825620d8fb586b35d3067225274ef5);
+        
+
+        circle_marker_9c5cdec552a6f1b542e54021e2d55543.bindPopup(popup_34e55e0ef7422720d152e9c3c61fd2a4)
+        ;
+
+        
+    
+    
+            var circle_marker_24ca0745825d2f857fd97b283db7e133 = L.circleMarker(
+                [33.853436, 36.0087089],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_08a6ff1b9629a24ffd1a5f8b81c1ffc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa716e32d47a1db07542b7375bc8df5d = $(`<div id="html_aa716e32d47a1db07542b7375bc8df5d" style="width: 100.0%; height: 100.0%;">Riak Technical Institute</div>`)[0];
+            popup_08a6ff1b9629a24ffd1a5f8b81c1ffc6.setContent(html_aa716e32d47a1db07542b7375bc8df5d);
+        
+
+        circle_marker_24ca0745825d2f857fd97b283db7e133.bindPopup(popup_08a6ff1b9629a24ffd1a5f8b81c1ffc6)
+        ;
+
+        
+    
+    
+            var circle_marker_0ea4999d349fb12cce952ab5ce32610d = L.circleMarker(
+                [33.7721338, 35.9067365],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_e49947f811ea294bfd73f15dd16dda39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c749817ef89756bfdb0bf3e4b7937bb = $(`<div id="html_7c749817ef89756bfdb0bf3e4b7937bb" style="width: 100.0%; height: 100.0%;">Martyr Rafik Hariri Technical Institute - Bar Elias</div>`)[0];
+            popup_e49947f811ea294bfd73f15dd16dda39.setContent(html_7c749817ef89756bfdb0bf3e4b7937bb);
+        
+
+        circle_marker_0ea4999d349fb12cce952ab5ce32610d.bindPopup(popup_e49947f811ea294bfd73f15dd16dda39)
+        ;
+
+        
+    
+    
+            var circle_marker_73c58724ff45afeb86544416585f1a70 = L.circleMarker(
+                [33.550396, 35.3729209],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_b61daa9faa0b7e20f2ce89222caba40b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_017350733c300eb6b5945505ee0672d2 = $(`<div id="html_017350733c300eb6b5945505ee0672d2" style="width: 100.0%; height: 100.0%;">Saida Technical Institute</div>`)[0];
+            popup_b61daa9faa0b7e20f2ce89222caba40b.setContent(html_017350733c300eb6b5945505ee0672d2);
+        
+
+        circle_marker_73c58724ff45afeb86544416585f1a70.bindPopup(popup_b61daa9faa0b7e20f2ce89222caba40b)
+        ;
+
+        
+    
+    
+            var circle_marker_1ccd693e8cc55a7a3f9dbf1c588c714e = L.circleMarker(
+                [33.5189247, 35.3869824],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_d41c3adc8a488d0ab78e714c17a024be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adaa45569227eb20d572482251564f7e = $(`<div id="html_adaa45569227eb20d572482251564f7e" style="width: 100.0%; height: 100.0%;">Maghdouche Technical Institute</div>`)[0];
+            popup_d41c3adc8a488d0ab78e714c17a024be.setContent(html_adaa45569227eb20d572482251564f7e);
+        
+
+        circle_marker_1ccd693e8cc55a7a3f9dbf1c588c714e.bindPopup(popup_d41c3adc8a488d0ab78e714c17a024be)
+        ;
+
+        
+    
+    
+            var circle_marker_079a22cc38af9a97bbac15bcb0e78181 = L.circleMarker(
+                [34.2804135, 35.7190751],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_fdb133ff71092a7a1076aa1e4714aa63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06e63c3d24e33e4e95e964c85c9846f4 = $(`<div id="html_06e63c3d24e33e4e95e964c85c9846f4" style="width: 100.0%; height: 100.0%;">Ras Nhash Technical Institute</div>`)[0];
+            popup_fdb133ff71092a7a1076aa1e4714aa63.setContent(html_06e63c3d24e33e4e95e964c85c9846f4);
+        
+
+        circle_marker_079a22cc38af9a97bbac15bcb0e78181.bindPopup(popup_fdb133ff71092a7a1076aa1e4714aa63)
+        ;
+
+        
+    
+    
+            var circle_marker_ccf3ac7ab79ba6c37d751c946e06158c = L.circleMarker(
+                [34.3242666, 35.7284608],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_292f63944b71966bb9f2688e713ea81c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eef4dc5f87bb993b9f2d26273d7ed9c1 = $(`<div id="html_eef4dc5f87bb993b9f2d26273d7ed9c1" style="width: 100.0%; height: 100.0%;">Chekka Technical Institute</div>`)[0];
+            popup_292f63944b71966bb9f2688e713ea81c.setContent(html_eef4dc5f87bb993b9f2d26273d7ed9c1);
+        
+
+        circle_marker_ccf3ac7ab79ba6c37d751c946e06158c.bindPopup(popup_292f63944b71966bb9f2688e713ea81c)
+        ;
+
+        
+    
+    
+            var circle_marker_e7c2ee8ec1ea6648025b9de281fd04ac = L.circleMarker(
+                [34.2880127, 35.8060808],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_6e7a16fbd088f55a13b09c8e8dcf3be5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_485fa5f1ea3082fd39705600c5908212 = $(`<div id="html_485fa5f1ea3082fd39705600c5908212" style="width: 100.0%; height: 100.0%;">Amioun Technical Institute</div>`)[0];
+            popup_6e7a16fbd088f55a13b09c8e8dcf3be5.setContent(html_485fa5f1ea3082fd39705600c5908212);
+        
+
+        circle_marker_e7c2ee8ec1ea6648025b9de281fd04ac.bindPopup(popup_6e7a16fbd088f55a13b09c8e8dcf3be5)
+        ;
+
+        
+    
+    
+            var circle_marker_77fa32d20def246744e84c13e0f7f068 = L.circleMarker(
+                [34.2755046, 35.8275956],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_6247796e4be642680de6d78b24fc29cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e0ee27899b24bea1c326dcf6876e8bd = $(`<div id="html_0e0ee27899b24bea1c326dcf6876e8bd" style="width: 100.0%; height: 100.0%;">Sheikh Khalil HusseinTechnical Institute</div>`)[0];
+            popup_6247796e4be642680de6d78b24fc29cd.setContent(html_0e0ee27899b24bea1c326dcf6876e8bd);
+        
+
+        circle_marker_77fa32d20def246744e84c13e0f7f068.bindPopup(popup_6247796e4be642680de6d78b24fc29cd)
+        ;
+
+        
+    
+    
+            var circle_marker_b03dee84c764458cbf0e4b556f8e1839 = L.circleMarker(
+                [34.3982118, 36.0478202],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_3d44278169f25276f9cbafd3c8c4ce5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d52449b5d50525d67acb97ce92041918 = $(`<div id="html_d52449b5d50525d67acb97ce92041918" style="width: 100.0%; height: 100.0%;">Sfireh Technical Institute</div>`)[0];
+            popup_3d44278169f25276f9cbafd3c8c4ce5d.setContent(html_d52449b5d50525d67acb97ce92041918);
+        
+
+        circle_marker_b03dee84c764458cbf0e4b556f8e1839.bindPopup(popup_3d44278169f25276f9cbafd3c8c4ce5d)
+        ;
+
+        
+    
+    
+            var circle_marker_103f153e0dfb2dbbeb319d771afc9bbc = L.circleMarker(
+                [34.4622254, 35.8941543],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_f2ba417867d9b9254a78193d910d0870 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4db7513710023f3d2eb4b419cb00a3f5 = $(`<div id="html_4db7513710023f3d2eb4b419cb00a3f5" style="width: 100.0%; height: 100.0%;">Deir Ammar Technical Institute</div>`)[0];
+            popup_f2ba417867d9b9254a78193d910d0870.setContent(html_4db7513710023f3d2eb4b419cb00a3f5);
+        
+
+        circle_marker_103f153e0dfb2dbbeb319d771afc9bbc.bindPopup(popup_f2ba417867d9b9254a78193d910d0870)
+        ;
+
+        
+    
+    
+            var circle_marker_c7df19a4754f7d0fb77863d57e622308 = L.circleMarker(
+                [34.3851462, 36.0192587],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_65317c9a3f285bc081ef461fe2438cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecc86ce7aef1e4eb763a325e6167a2e3 = $(`<div id="html_ecc86ce7aef1e4eb763a325e6167a2e3" style="width: 100.0%; height: 100.0%;">Sie el Donnie Technical Institute</div>`)[0];
+            popup_65317c9a3f285bc081ef461fe2438cf3.setContent(html_ecc86ce7aef1e4eb763a325e6167a2e3);
+        
+
+        circle_marker_c7df19a4754f7d0fb77863d57e622308.bindPopup(popup_65317c9a3f285bc081ef461fe2438cf3)
+        ;
+
+        
+    
+    
+            var circle_marker_c8eec19649b1cde78abe0903acd1c07b = L.circleMarker(
+                [34.4068716, 35.8842153],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_b2cf74a7d93f8ba131658f07b5fb0641 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9478c33b4cebb4cd28fc92af3ed281bc = $(`<div id="html_9478c33b4cebb4cd28fc92af3ed281bc" style="width: 100.0%; height: 100.0%;">Zghrata Technical Institute</div>`)[0];
+            popup_b2cf74a7d93f8ba131658f07b5fb0641.setContent(html_9478c33b4cebb4cd28fc92af3ed281bc);
+        
+
+        circle_marker_c8eec19649b1cde78abe0903acd1c07b.bindPopup(popup_b2cf74a7d93f8ba131658f07b5fb0641)
+        ;
+
+        
+    
+    
+            var circle_marker_fecb8c2ccd22fa28b4c69156b81a7992 = L.circleMarker(
+                [34.371941, 35.9123463],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_a836edd41837eb373c8c9fae4b71dddd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2021df035347806bc214088c306016e = $(`<div id="html_a2021df035347806bc214088c306016e" style="width: 100.0%; height: 100.0%;">Mar Antonios Technical Institute</div>`)[0];
+            popup_a836edd41837eb373c8c9fae4b71dddd.setContent(html_a2021df035347806bc214088c306016e);
+        
+
+        circle_marker_fecb8c2ccd22fa28b4c69156b81a7992.bindPopup(popup_a836edd41837eb373c8c9fae4b71dddd)
+        ;
+
+        
+    
+    
+            var circle_marker_2cd65de53136f5f648c6c5cdb3ecd958 = L.circleMarker(
+                [34.4037045, 35.8509651],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_4c5cd9ac261da4b86293d5ce6e84d6a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4526540c888c05f8d9b999f5a04bd123 = $(`<div id="html_4526540c888c05f8d9b999f5a04bd123" style="width: 100.0%; height: 100.0%;">IPNET - Tripoli</div>`)[0];
+            popup_4c5cd9ac261da4b86293d5ce6e84d6a5.setContent(html_4526540c888c05f8d9b999f5a04bd123);
+        
+
+        circle_marker_2cd65de53136f5f648c6c5cdb3ecd958.bindPopup(popup_4c5cd9ac261da4b86293d5ce6e84d6a5)
+        ;
+
+        
+    
+    
+            var circle_marker_f18f3efaf0bb5cfd17ae075c4487d4b7 = L.circleMarker(
+                [34.4552987, 35.8120868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_769dd17377de3c2e5ee7eb96b3b30c54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2f6308d51216ee83ca2220709c427c7 = $(`<div id="html_d2f6308d51216ee83ca2220709c427c7" style="width: 100.0%; height: 100.0%;">Hotelerie Technical Institute - Tripoli</div>`)[0];
+            popup_769dd17377de3c2e5ee7eb96b3b30c54.setContent(html_d2f6308d51216ee83ca2220709c427c7);
+        
+
+        circle_marker_f18f3efaf0bb5cfd17ae075c4487d4b7.bindPopup(popup_769dd17377de3c2e5ee7eb96b3b30c54)
+        ;
+
+        
+    
+    
+            var circle_marker_cfd96112814bb322fe97f292429b442e = L.circleMarker(
+                [34.4363871, 35.8559241],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_f1c680f2f7a9555575dcad09bf248084 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90e7db69a9bfc87242b1078d3d8e3907 = $(`<div id="html_90e7db69a9bfc87242b1078d3d8e3907" style="width: 100.0%; height: 100.0%;">Tripoli Technical School</div>`)[0];
+            popup_f1c680f2f7a9555575dcad09bf248084.setContent(html_90e7db69a9bfc87242b1078d3d8e3907);
+        
+
+        circle_marker_cfd96112814bb322fe97f292429b442e.bindPopup(popup_f1c680f2f7a9555575dcad09bf248084)
+        ;
+
+        
+    
+    
+            var circle_marker_98be82198618d4c22a9b76d74beb98b0 = L.circleMarker(
+                [34.419641, 35.8458492],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_0426135330a397a52fed58e298b9b4f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1761a586177fd065253cac9d92674ac9 = $(`<div id="html_1761a586177fd065253cac9d92674ac9" style="width: 100.0%; height: 100.0%;">Saadah Technical Institute - Abi Samra</div>`)[0];
+            popup_0426135330a397a52fed58e298b9b4f9.setContent(html_1761a586177fd065253cac9d92674ac9);
+        
+
+        circle_marker_98be82198618d4c22a9b76d74beb98b0.bindPopup(popup_0426135330a397a52fed58e298b9b4f9)
+        ;
+
+        
+    
+    
+            var circle_marker_02999e2a9948ec52e8242783026e026d = L.circleMarker(
+                [34.4359801, 35.8559359],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_337d85c34f5c09897b7a6ded638a5c2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ea166ce2099257d77534f6252e65dd7 = $(`<div id="html_7ea166ce2099257d77534f6252e65dd7" style="width: 100.0%; height: 100.0%;">Tripoli Technical Institute</div>`)[0];
+            popup_337d85c34f5c09897b7a6ded638a5c2c.setContent(html_7ea166ce2099257d77534f6252e65dd7);
+        
+
+        circle_marker_02999e2a9948ec52e8242783026e026d.bindPopup(popup_337d85c34f5c09897b7a6ded638a5c2c)
+        ;
+
+        
+    
+    
+            var circle_marker_dd75e97b5a26f1cd8c1c2aaa1c0eec58 = L.circleMarker(
+                [33.3781911, 35.3607794],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_471b5db25fd8c60d099aafff6d62aadf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baf132cbf90fbf8b27122efaee417d14 = $(`<div id="html_baf132cbf90fbf8b27122efaee417d14" style="width: 100.0%; height: 100.0%;">Phoenix Technical Institute</div>`)[0];
+            popup_471b5db25fd8c60d099aafff6d62aadf.setContent(html_baf132cbf90fbf8b27122efaee417d14);
+        
+
+        circle_marker_dd75e97b5a26f1cd8c1c2aaa1c0eec58.bindPopup(popup_471b5db25fd8c60d099aafff6d62aadf)
+        ;
+
+        
+    
+    
+            var circle_marker_e609c0f9f9654489ee2d6028b6492848 = L.circleMarker(
+                [33.3275467, 35.4016217],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_9ef2a895b5551f4d351c5a85f69381f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0487edcb8df1eccdce399339f09b2023 = $(`<div id="html_0487edcb8df1eccdce399339f09b2023" style="width: 100.0%; height: 100.0%;">Martyr Hussein Sbeity Technical Institute</div>`)[0];
+            popup_9ef2a895b5551f4d351c5a85f69381f9.setContent(html_0487edcb8df1eccdce399339f09b2023);
+        
+
+        circle_marker_e609c0f9f9654489ee2d6028b6492848.bindPopup(popup_9ef2a895b5551f4d351c5a85f69381f9)
+        ;
+
+        
+    
+    
+            var circle_marker_5143bd3afcbfda9151dacd68b4a0dfcb = L.circleMarker(
+                [33.3863514, 35.4493179],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_4d99deda19f66b6c28168b7ff5b8988d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db7b46fadc13337404b37d51e61bd165 = $(`<div id="html_db7b46fadc13337404b37d51e61bd165" style="width: 100.0%; height: 100.0%;">Toul Technical Institute</div>`)[0];
+            popup_4d99deda19f66b6c28168b7ff5b8988d.setContent(html_db7b46fadc13337404b37d51e61bd165);
+        
+
+        circle_marker_5143bd3afcbfda9151dacd68b4a0dfcb.bindPopup(popup_4d99deda19f66b6c28168b7ff5b8988d)
+        ;
+
+        
+    
+    
+            var circle_marker_5e3e0c4592fead37fbecffa4cb154b2c = L.circleMarker(
+                [33.1192113, 35.4501989],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_1184a126222dc01c4ff1793dc04a0b80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e899bc82cabebe5c44d46efe5f1613f = $(`<div id="html_8e899bc82cabebe5c44d46efe5f1613f" style="width: 100.0%; height: 100.0%;">Martyr Rani Bazzi Technical School</div>`)[0];
+            popup_1184a126222dc01c4ff1793dc04a0b80.setContent(html_8e899bc82cabebe5c44d46efe5f1613f);
+        
+
+        circle_marker_5e3e0c4592fead37fbecffa4cb154b2c.bindPopup(popup_1184a126222dc01c4ff1793dc04a0b80)
+        ;
+
+        
+    
+    
+            var circle_marker_9905f573a9f55ade97447f9035044f34 = L.circleMarker(
+                [33.1198718, 35.449857],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_0c37fbe01f843fdeb77137f67f9e6dcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a29e5faeccd2531e0dec8d7c2e4deb9b = $(`<div id="html_a29e5faeccd2531e0dec8d7c2e4deb9b" style="width: 100.0%; height: 100.0%;">Bint Jbeil Technical Institute</div>`)[0];
+            popup_0c37fbe01f843fdeb77137f67f9e6dcf.setContent(html_a29e5faeccd2531e0dec8d7c2e4deb9b);
+        
+
+        circle_marker_9905f573a9f55ade97447f9035044f34.bindPopup(popup_0c37fbe01f843fdeb77137f67f9e6dcf)
+        ;
+
+        
+    
+    
+            var circle_marker_507382c6bc793932695bb3847aa1cdce = L.circleMarker(
+                [33.1927354, 35.4150262],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_c2ea9854fe443693a66d5eb63f1ddc59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b285fa0001249d20b26341d9f7262a2 = $(`<div id="html_5b285fa0001249d20b26341d9f7262a2" style="width: 100.0%; height: 100.0%;">TibninTechnical Institute</div>`)[0];
+            popup_c2ea9854fe443693a66d5eb63f1ddc59.setContent(html_5b285fa0001249d20b26341d9f7262a2);
+        
+
+        circle_marker_507382c6bc793932695bb3847aa1cdce.bindPopup(popup_c2ea9854fe443693a66d5eb63f1ddc59)
+        ;
+
+        
+    
+    
+            var circle_marker_df47a17faeea53f98e47b3977bf7140c = L.circleMarker(
+                [33.3831733, 35.6719336],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_29df89c93fab22327bc3888f58d63f80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31811cc486a36a0c61c03190f331fb8f = $(`<div id="html_31811cc486a36a0c61c03190f331fb8f" style="width: 100.0%; height: 100.0%;">Hasbaya Technical Institute</div>`)[0];
+            popup_29df89c93fab22327bc3888f58d63f80.setContent(html_31811cc486a36a0c61c03190f331fb8f);
+        
+
+        circle_marker_df47a17faeea53f98e47b3977bf7140c.bindPopup(popup_29df89c93fab22327bc3888f58d63f80)
+        ;
+
+        
+    
+    
+            var circle_marker_f3df6ca7a5c62ddeb670181c9852bffb = L.circleMarker(
+                [34.4080296, 36.395166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_551bf26ecead9852e9887c3adc688197 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_310a77b135a41e5aa503d6eb7a96412d = $(`<div id="html_310a77b135a41e5aa503d6eb7a96412d" style="width: 100.0%; height: 100.0%;">Hermel Technical Institute</div>`)[0];
+            popup_551bf26ecead9852e9887c3adc688197.setContent(html_310a77b135a41e5aa503d6eb7a96412d);
+        
+
+        circle_marker_f3df6ca7a5c62ddeb670181c9852bffb.bindPopup(popup_551bf26ecead9852e9887c3adc688197)
+        ;
+
+        
+    
+    
+            var circle_marker_99aa9a498742c7353248111fe1dc6a6f = L.circleMarker(
+                [34.3483871, 36.4720227],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_5b63e776e12164ba324def22d14afe72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba2494c9e07030d82e15429c3ec0f331 = $(`<div id="html_ba2494c9e07030d82e15429c3ec0f331" style="width: 100.0%; height: 100.0%;">Kaa Technical Institute</div>`)[0];
+            popup_5b63e776e12164ba324def22d14afe72.setContent(html_ba2494c9e07030d82e15429c3ec0f331);
+        
+
+        circle_marker_99aa9a498742c7353248111fe1dc6a6f.bindPopup(popup_5b63e776e12164ba324def22d14afe72)
+        ;
+
+        
+    
+    
+            var circle_marker_888d8941f783d0079f90bb37c8de086e = L.circleMarker(
+                [33.899845, 36.0247521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_12963f3524e63160915dc61c8b0b4396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c001d18b22b607e5ed832186e1294bb4 = $(`<div id="html_c001d18b22b607e5ed832186e1294bb4" style="width: 100.0%; height: 100.0%;">Bednayel Technical Institute</div>`)[0];
+            popup_12963f3524e63160915dc61c8b0b4396.setContent(html_c001d18b22b607e5ed832186e1294bb4);
+        
+
+        circle_marker_888d8941f783d0079f90bb37c8de086e.bindPopup(popup_12963f3524e63160915dc61c8b0b4396)
+        ;
+
+        
+    
+    
+            var circle_marker_0d5a8b94e197d1e7c73e2237f4c4b1c3 = L.circleMarker(
+                [33.9750518, 36.0010371],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_7a745817f737650da6df4d0705eb6e48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80adf9d30c20cbce99b08839ae4f61a8 = $(`<div id="html_80adf9d30c20cbce99b08839ae4f61a8" style="width: 100.0%; height: 100.0%;">Baalbeck Technical Institute</div>`)[0];
+            popup_7a745817f737650da6df4d0705eb6e48.setContent(html_80adf9d30c20cbce99b08839ae4f61a8);
+        
+
+        circle_marker_0d5a8b94e197d1e7c73e2237f4c4b1c3.bindPopup(popup_7a745817f737650da6df4d0705eb6e48)
+        ;
+
+        
+    
+    
+            var circle_marker_7df9b5b9488e2389bc1f59a1e20c9b7b = L.circleMarker(
+                [33.9688218, 36.1336904],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_b6f89cbcd243896e068a2def2e84b1e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eb553bc58af693589c0d6a1cb8e1dcb = $(`<div id="html_2eb553bc58af693589c0d6a1cb8e1dcb" style="width: 100.0%; height: 100.0%;">Sheikh Yaakoub Technical Institute</div>`)[0];
+            popup_b6f89cbcd243896e068a2def2e84b1e6.setContent(html_2eb553bc58af693589c0d6a1cb8e1dcb);
+        
+
+        circle_marker_7df9b5b9488e2389bc1f59a1e20c9b7b.bindPopup(popup_b6f89cbcd243896e068a2def2e84b1e6)
+        ;
+
+        
+    
+    
+            var circle_marker_b1e246fce559bbbb38b797227ee0d053 = L.circleMarker(
+                [33.6967755, 35.5545979],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_de8a801925d4910e8f47f5c1178410ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b08382c63fcb948efaf77d89d750ac79 = $(`<div id="html_b08382c63fcb948efaf77d89d750ac79" style="width: 100.0%; height: 100.0%;">Deir el Qamar Technical School</div>`)[0];
+            popup_de8a801925d4910e8f47f5c1178410ee.setContent(html_b08382c63fcb948efaf77d89d750ac79);
+        
+
+        circle_marker_b1e246fce559bbbb38b797227ee0d053.bindPopup(popup_de8a801925d4910e8f47f5c1178410ee)
+        ;
+
+        
+    
+    
+            var circle_marker_1ec82581d3c6b7988f432d94ef7fc811 = L.circleMarker(
+                [33.6440933, 35.4197433],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_41025d018dbffa4cfa378e1b8015015e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e06bd520a9ed0a12fc6133cc5bc5883 = $(`<div id="html_1e06bd520a9ed0a12fc6133cc5bc5883" style="width: 100.0%; height: 100.0%;">Barja Technical Institute</div>`)[0];
+            popup_41025d018dbffa4cfa378e1b8015015e.setContent(html_1e06bd520a9ed0a12fc6133cc5bc5883);
+        
+
+        circle_marker_1ec82581d3c6b7988f432d94ef7fc811.bindPopup(popup_41025d018dbffa4cfa378e1b8015015e)
+        ;
+
+        
+    
+    
+            var circle_marker_1bde4ae9e9630f6b4643960ed5f65681 = L.circleMarker(
+                [33.6920877, 35.6481924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_136f8b8f5892236e5f319d89daba7f96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d87c2c8f09d8e43f888a37f9f5a2322b = $(`<div id="html_d87c2c8f09d8e43f888a37f9f5a2322b" style="width: 100.0%; height: 100.0%;">Batloun Technical Institute</div>`)[0];
+            popup_136f8b8f5892236e5f319d89daba7f96.setContent(html_d87c2c8f09d8e43f888a37f9f5a2322b);
+        
+
+        circle_marker_1bde4ae9e9630f6b4643960ed5f65681.bindPopup(popup_136f8b8f5892236e5f319d89daba7f96)
+        ;
+
+        
+    
+    
+            var circle_marker_0b2678742552095e53d10604c8b2b6f9 = L.circleMarker(
+                [33.6407411, 35.4747311],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_0df5a9f3c6ec565f193de9e962263c5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd0acee7e26e0fed005a9e21f0b1a554 = $(`<div id="html_cd0acee7e26e0fed005a9e21f0b1a554" style="width: 100.0%; height: 100.0%;">Chhim Technical Institute</div>`)[0];
+            popup_0df5a9f3c6ec565f193de9e962263c5c.setContent(html_cd0acee7e26e0fed005a9e21f0b1a554);
+        
+
+        circle_marker_0b2678742552095e53d10604c8b2b6f9.bindPopup(popup_0df5a9f3c6ec565f193de9e962263c5c)
+        ;
+
+        
+    
+    
+            var circle_marker_aff720ddf70cbe1080cdfef4750217ab = L.circleMarker(
+                [33.8777936, 35.5488158],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_99360b40e8c9ab96a5804b8b3592c65a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25add690adeb21db8be20fada27eef66 = $(`<div id="html_25add690adeb21db8be20fada27eef66" style="width: 100.0%; height: 100.0%;">Hotelerie Technical School -Dekwaneh</div>`)[0];
+            popup_99360b40e8c9ab96a5804b8b3592c65a.setContent(html_25add690adeb21db8be20fada27eef66);
+        
+
+        circle_marker_aff720ddf70cbe1080cdfef4750217ab.bindPopup(popup_99360b40e8c9ab96a5804b8b3592c65a)
+        ;
+
+        
+    
+    
+            var circle_marker_de0e60f7016e1a2c1ce6d0e78165e1e0 = L.circleMarker(
+                [33.8807731, 35.5488135],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_57aba89e77bae6d78fcb00df6e76ed95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07f3fe5daaa41768de5a672fac575582 = $(`<div id="html_07f3fe5daaa41768de5a672fac575582" style="width: 100.0%; height: 100.0%;">Technical School of Tourism and Commercial Sciences - Dekwaneh</div>`)[0];
+            popup_57aba89e77bae6d78fcb00df6e76ed95.setContent(html_07f3fe5daaa41768de5a672fac575582);
+        
+
+        circle_marker_de0e60f7016e1a2c1ce6d0e78165e1e0.bindPopup(popup_57aba89e77bae6d78fcb00df6e76ed95)
+        ;
+
+        
+    
+    
+            var circle_marker_bd652f821a6441754027a9700cc63bc2 = L.circleMarker(
+                [33.8789387, 35.5488183],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_7b95f5ae7f5deccbb95d78c1fb5f08ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1c021d0e53543358531a2fedf574606 = $(`<div id="html_b1c021d0e53543358531a2fedf574606" style="width: 100.0%; height: 100.0%;">IPNET - Dekwaneh</div>`)[0];
+            popup_7b95f5ae7f5deccbb95d78c1fb5f08ba.setContent(html_b1c021d0e53543358531a2fedf574606);
+        
+
+        circle_marker_bd652f821a6441754027a9700cc63bc2.bindPopup(popup_7b95f5ae7f5deccbb95d78c1fb5f08ba)
+        ;
+
+        
+    
+    
+            var circle_marker_068dc0f6a82181a3398a2a1415cdd3f3 = L.circleMarker(
+                [33.8806733, 35.5490128],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_b5bce9cf0b0df161a5a53ce5a905cd1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fa8113d1047f1d69c823ec562739046 = $(`<div id="html_8fa8113d1047f1d69c823ec562739046" style="width: 100.0%; height: 100.0%;">Tourism Technical Institute - Dekwaneh</div>`)[0];
+            popup_b5bce9cf0b0df161a5a53ce5a905cd1e.setContent(html_8fa8113d1047f1d69c823ec562739046);
+        
+
+        circle_marker_068dc0f6a82181a3398a2a1415cdd3f3.bindPopup(popup_b5bce9cf0b0df161a5a53ce5a905cd1e)
+        ;
+
+        
+    
+    
+            var circle_marker_b6edc6ab975aae98d78e73257ccfa579 = L.circleMarker(
+                [33.877997, 35.5488762],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_aee714e8c9039b68995b4952cef49cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45671e91280154195727a8621549780e = $(`<div id="html_45671e91280154195727a8621549780e" style="width: 100.0%; height: 100.0%;">Hotelerie Technical Institute - Dekwaneh</div>`)[0];
+            popup_aee714e8c9039b68995b4952cef49cb6.setContent(html_45671e91280154195727a8621549780e);
+        
+
+        circle_marker_b6edc6ab975aae98d78e73257ccfa579.bindPopup(popup_aee714e8c9039b68995b4952cef49cb6)
+        ;
+
+        
+    
+    
+            var circle_marker_911258f15bf0f70ed7c22b0f72001507 = L.circleMarker(
+                [33.8671035, 35.49213],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_9a5236ff4142f484fba0eb5c12fa49ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_551e35c14b70bae14a97c27e688a1390 = $(`<div id="html_551e35c14b70bae14a97c27e688a1390" style="width: 100.0%; height: 100.0%;">Hotelerie Technical School -Bir Hassan</div>`)[0];
+            popup_9a5236ff4142f484fba0eb5c12fa49ab.setContent(html_551e35c14b70bae14a97c27e688a1390);
+        
+
+        circle_marker_911258f15bf0f70ed7c22b0f72001507.bindPopup(popup_9a5236ff4142f484fba0eb5c12fa49ab)
+        ;
+
+        
+    
+    
+            var circle_marker_3410ebba706ec1c149aea0d238e57a9c = L.circleMarker(
+                [33.8666189, 35.4920578],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_b8ebadda8783d439618161b6d678f88c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43d0662c0807f714a237db4db99069e9 = $(`<div id="html_43d0662c0807f714a237db4db99069e9" style="width: 100.0%; height: 100.0%;">Hotelerie Technical Institute - Bir Hassan</div>`)[0];
+            popup_b8ebadda8783d439618161b6d678f88c.setContent(html_43d0662c0807f714a237db4db99069e9);
+        
+
+        circle_marker_3410ebba706ec1c149aea0d238e57a9c.bindPopup(popup_b8ebadda8783d439618161b6d678f88c)
+        ;
+
+        
+    
+    
+            var circle_marker_1a208558458fc0c44ec24943637771a8 = L.circleMarker(
+                [33.8657173, 35.4928133],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_dafdd3d735226f1f1e338dd66eb06047 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c06077076bfca98cfb3ef371fc8a0f4b = $(`<div id="html_c06077076bfca98cfb3ef371fc8a0f4b" style="width: 100.0%; height: 100.0%;">National Institute for Nursing Care</div>`)[0];
+            popup_dafdd3d735226f1f1e338dd66eb06047.setContent(html_c06077076bfca98cfb3ef371fc8a0f4b);
+        
+
+        circle_marker_1a208558458fc0c44ec24943637771a8.bindPopup(popup_dafdd3d735226f1f1e338dd66eb06047)
+        ;
+
+        
+    
+    
+            var circle_marker_7e4b6185892323e2fffe17fb8048757f = L.circleMarker(
+                [33.8666053, 35.4928111],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_6ac5fc72249533242e5bfdd3f49cee6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5932fbb4980f389fd0ba7d310ce724e1 = $(`<div id="html_5932fbb4980f389fd0ba7d310ce724e1" style="width: 100.0%; height: 100.0%;">Bir Hassan Technical Institute</div>`)[0];
+            popup_6ac5fc72249533242e5bfdd3f49cee6f.setContent(html_5932fbb4980f389fd0ba7d310ce724e1);
+        
+
+        circle_marker_7e4b6185892323e2fffe17fb8048757f.bindPopup(popup_6ac5fc72249533242e5bfdd3f49cee6f)
+        ;
+
+        
+    
+    
+            var circle_marker_b0aac81d1c774437c1aa8486a9f996a2 = L.circleMarker(
+                [33.802028, 35.5258506],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_dd73ba592f20c8366d7a105af64e1204 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34ea1306a528159b45237379dcd647a9 = $(`<div id="html_34ea1306a528159b45237379dcd647a9" style="width: 100.0%; height: 100.0%;">Chouweifat Technical Institute</div>`)[0];
+            popup_dd73ba592f20c8366d7a105af64e1204.setContent(html_34ea1306a528159b45237379dcd647a9);
+        
+
+        circle_marker_b0aac81d1c774437c1aa8486a9f996a2.bindPopup(popup_dd73ba592f20c8366d7a105af64e1204)
+        ;
+
+        
+    
+    
+            var circle_marker_f792641c1c114775e24f0cdbf27f5c57 = L.circleMarker(
+                [33.9670178, 35.6955112],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_7f845a1f91a6188efa661424405798b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5b48d3ed0411e6aded390ebcede7aa8 = $(`<div id="html_f5b48d3ed0411e6aded390ebcede7aa8" style="width: 100.0%; height: 100.0%;">Ajaltoun Technical school</div>`)[0];
+            popup_7f845a1f91a6188efa661424405798b7.setContent(html_f5b48d3ed0411e6aded390ebcede7aa8);
+        
+
+        circle_marker_f792641c1c114775e24f0cdbf27f5c57.bindPopup(popup_7f845a1f91a6188efa661424405798b7)
+        ;
+
+        
+    
+    
+            var circle_marker_82cb823b07cc67e708f9962b02bb11b7 = L.circleMarker(
+                [34.5367591, 36.0801838],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_fc742c2073e2177bfb3a4615c54b8378 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_986fa8716510e2f9df059f47412f1a7f = $(`<div id="html_986fa8716510e2f9df059f47412f1a7f" style="width: 100.0%; height: 100.0%;">Higher Orthodox Vocational Institute</div>`)[0];
+            popup_fc742c2073e2177bfb3a4615c54b8378.setContent(html_986fa8716510e2f9df059f47412f1a7f);
+        
+
+        circle_marker_82cb823b07cc67e708f9962b02bb11b7.bindPopup(popup_fc742c2073e2177bfb3a4615c54b8378)
+        ;
+
+        
+    
+    
+            var circle_marker_8f90af84c6b655a1882f3e7d823541d7 = L.circleMarker(
+                [34.60295, 36.1900037],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_ad7308cc7b1edfd2d4e2f38e2bed56cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6935f3ecded05d1985401ed4d2ded114 = $(`<div id="html_6935f3ecded05d1985401ed4d2ded114" style="width: 100.0%; height: 100.0%;">Dawseh Technical School</div>`)[0];
+            popup_ad7308cc7b1edfd2d4e2f38e2bed56cc.setContent(html_6935f3ecded05d1985401ed4d2ded114);
+        
+
+        circle_marker_8f90af84c6b655a1882f3e7d823541d7.bindPopup(popup_ad7308cc7b1edfd2d4e2f38e2bed56cc)
+        ;
+
+        
+    
+    
+            var circle_marker_e1c8e2908b326f53db4b2cbdaa3db116 = L.circleMarker(
+                [34.5208847, 35.9972361],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_793cb1193f7b42d1468fecaefbd04bfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f6c610fb6b043ae7df44deb302d8b6b = $(`<div id="html_6f6c610fb6b043ae7df44deb302d8b6b" style="width: 100.0%; height: 100.0%;">Saadah Technical Institute - Akkar</div>`)[0];
+            popup_793cb1193f7b42d1468fecaefbd04bfd.setContent(html_6f6c610fb6b043ae7df44deb302d8b6b);
+        
+
+        circle_marker_e1c8e2908b326f53db4b2cbdaa3db116.bindPopup(popup_793cb1193f7b42d1468fecaefbd04bfd)
+        ;
+
+        
+    
+    
+            var circle_marker_b9323d64c99b7fc4bf5ecaa50b8d6b1f = L.circleMarker(
+                [34.6328411, 36.3801438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_7145a0e7a6f5f82cf5aedc95da2b926e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dc5b8baca8db40f4215d4aa2d9a32c3 = $(`<div id="html_0dc5b8baca8db40f4215d4aa2d9a32c3" style="width: 100.0%; height: 100.0%;">AL Amayer Technical Institute</div>`)[0];
+            popup_7145a0e7a6f5f82cf5aedc95da2b926e.setContent(html_0dc5b8baca8db40f4215d4aa2d9a32c3);
+        
+
+        circle_marker_b9323d64c99b7fc4bf5ecaa50b8d6b1f.bindPopup(popup_7145a0e7a6f5f82cf5aedc95da2b926e)
+        ;
+
+        
+    
+    
+            var circle_marker_950cbcb60622a7259376a0b95390ac37 = L.circleMarker(
+                [34.5714106, 36.2962885],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_662b61d48a02284d67f96ef03768493f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4041c78ed00529d71f80442736354d1 = $(`<div id="html_f4041c78ed00529d71f80442736354d1" style="width: 100.0%; height: 100.0%;">Qobayat Technical Institute</div>`)[0];
+            popup_662b61d48a02284d67f96ef03768493f.setContent(html_f4041c78ed00529d71f80442736354d1);
+        
+
+        circle_marker_950cbcb60622a7259376a0b95390ac37.bindPopup(popup_662b61d48a02284d67f96ef03768493f)
+        ;
+
+        
+    
+    
+            var circle_marker_823466ff1757d7ca925f60089cfd5b13 = L.circleMarker(
+                [34.5008455, 35.9933298],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_4e5a368aefe6eac878bcc134b586859f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46e17111b9104f862e09fbcfd695c88a = $(`<div id="html_46e17111b9104f862e09fbcfd695c88a" style="width: 100.0%; height: 100.0%;">Bebnin Technical Institute</div>`)[0];
+            popup_4e5a368aefe6eac878bcc134b586859f.setContent(html_46e17111b9104f862e09fbcfd695c88a);
+        
+
+        circle_marker_823466ff1757d7ca925f60089cfd5b13.bindPopup(popup_4e5a368aefe6eac878bcc134b586859f)
+        ;
+
+        
+    
+    
+            var circle_marker_97fe243c03f0e9ca0794f2524752f38b = L.circleMarker(
+                [34.5167915, 36.1645499],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_8d13aedb7075d608d58737c2256339c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c2c482f2c8f3b00ec38dba579f6312 = $(`<div id="html_77c2c482f2c8f3b00ec38dba579f6312" style="width: 100.0%; height: 100.0%;">Tekrit Technical Institute</div>`)[0];
+            popup_8d13aedb7075d608d58737c2256339c3.setContent(html_77c2c482f2c8f3b00ec38dba579f6312);
+        
+
+        circle_marker_97fe243c03f0e9ca0794f2524752f38b.bindPopup(popup_8d13aedb7075d608d58737c2256339c3)
+        ;
+
+        
+    
+    
+            var circle_marker_d432c1a977b4ce5bd56ccad059d27920 = L.circleMarker(
+                [34.548323, 36.0780152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_a6fbb3b586b106f8f2189355762c3d3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e48f4d7aa75987844bee953bf91b746b = $(`<div id="html_e48f4d7aa75987844bee953bf91b746b" style="width: 100.0%; height: 100.0%;">Halba Technical Institute</div>`)[0];
+            popup_a6fbb3b586b106f8f2189355762c3d3f.setContent(html_e48f4d7aa75987844bee953bf91b746b);
+        
+
+        circle_marker_d432c1a977b4ce5bd56ccad059d27920.bindPopup(popup_a6fbb3b586b106f8f2189355762c3d3f)
+        ;
+
+        
+    
+    
+            var circle_marker_4d9a90a0d9a5a90cb7201e1442b8d059 = L.circleMarker(
+                [34.5587299, 36.0953705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_d9001e3dc93cd95ed37e0a47eca72d14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c474983e1ae8dcd7868b7bbc4522453 = $(`<div id="html_4c474983e1ae8dcd7868b7bbc4522453" style="width: 100.0%; height: 100.0%;">Khraybet el Jendi Technical Institute</div>`)[0];
+            popup_d9001e3dc93cd95ed37e0a47eca72d14.setContent(html_4c474983e1ae8dcd7868b7bbc4522453);
+        
+
+        circle_marker_4d9a90a0d9a5a90cb7201e1442b8d059.bindPopup(popup_d9001e3dc93cd95ed37e0a47eca72d14)
+        ;
+
+        
+    
+    
+            var circle_marker_7380397395d591e75774744c923e256e = L.circleMarker(
+                [34.6337851, 36.3631711],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_123d573ee45aa3f1ba32b81bef43bf85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c73acdc5ebdd5795592f9929d95a91a2 = $(`<div id="html_c73acdc5ebdd5795592f9929d95a91a2" style="width: 100.0%; height: 100.0%;">Wadi Khaled Technical Institute</div>`)[0];
+            popup_123d573ee45aa3f1ba32b81bef43bf85.setContent(html_c73acdc5ebdd5795592f9929d95a91a2);
+        
+
+        circle_marker_7380397395d591e75774744c923e256e.bindPopup(popup_123d573ee45aa3f1ba32b81bef43bf85)
+        ;
+
+        
+    
+    
+            var circle_marker_2d5938704ca586be83cc584d820da833 = L.circleMarker(
+                [34.6177133, 36.3224858],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_3da7e798b64fc6ec44ab6b792ab00f4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9e17515367535550a208d814818183f = $(`<div id="html_c9e17515367535550a208d814818183f" style="width: 100.0%; height: 100.0%;">Chadra Technical School</div>`)[0];
+            popup_3da7e798b64fc6ec44ab6b792ab00f4c.setContent(html_c9e17515367535550a208d814818183f);
+        
+
+        circle_marker_2d5938704ca586be83cc584d820da833.bindPopup(popup_3da7e798b64fc6ec44ab6b792ab00f4c)
+        ;
+
+        
+    
+    
+            var circle_marker_b10181f044c7c44eb8f79e5bb51d1149 = L.circleMarker(
+                [33.5182551, 35.6454966],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_48a0b1a33f4b59d8ace06fe83e81f629 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1b5218418b37d1910c9002f217ed28a = $(`<div id="html_e1b5218418b37d1910c9002f217ed28a" style="width: 100.0%; height: 100.0%;">Machghara Technical School</div>`)[0];
+            popup_48a0b1a33f4b59d8ace06fe83e81f629.setContent(html_e1b5218418b37d1910c9002f217ed28a);
+        
+
+        circle_marker_b10181f044c7c44eb8f79e5bb51d1149.bindPopup(popup_48a0b1a33f4b59d8ace06fe83e81f629)
+        ;
+
+        
+    
+    
+            var circle_marker_6317a57c3dec211403abde0767cb16dd = L.circleMarker(
+                [33.6928536, 35.8478443],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_ded6af3a974dd46fb4ba31a09d92c051 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ac2c634954e5e9c0a3fb60bfc0761a6 = $(`<div id="html_8ac2c634954e5e9c0a3fb60bfc0761a6" style="width: 100.0%; height: 100.0%;">Bekaa Industrial Institute</div>`)[0];
+            popup_ded6af3a974dd46fb4ba31a09d92c051.setContent(html_8ac2c634954e5e9c0a3fb60bfc0761a6);
+        
+
+        circle_marker_6317a57c3dec211403abde0767cb16dd.bindPopup(popup_ded6af3a974dd46fb4ba31a09d92c051)
+        ;
+
+        
+    
+    
+            var circle_marker_b697ef3ba4367ce878335c8a320e17ab = L.circleMarker(
+                [33.6939033, 35.8456217],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_e3c2c9cdcd97d97db61649b85266ff54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41b5d839c27e3445c054c9f9aa455261 = $(`<div id="html_41b5d839c27e3445c054c9f9aa455261" style="width: 100.0%; height: 100.0%;">Bekaa Technical Institute</div>`)[0];
+            popup_e3c2c9cdcd97d97db61649b85266ff54.setContent(html_41b5d839c27e3445c054c9f9aa455261);
+        
+
+        circle_marker_b697ef3ba4367ce878335c8a320e17ab.bindPopup(popup_e3c2c9cdcd97d97db61649b85266ff54)
+        ;
+
+        
+    
+    
+            var circle_marker_2665d78573e99cc8cea902fc9e1958a0 = L.circleMarker(
+                [33.6406381, 35.8035219],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_c166f675b723c9b7f38db02e027e6e72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69791a6fc8a5c18a3a0d54fb5cf29edd = $(`<div id="html_69791a6fc8a5c18a3a0d54fb5cf29edd" style="width: 100.0%; height: 100.0%;">Development Institute for Sciences and Professions</div>`)[0];
+            popup_c166f675b723c9b7f38db02e027e6e72.setContent(html_69791a6fc8a5c18a3a0d54fb5cf29edd);
+        
+
+        circle_marker_2665d78573e99cc8cea902fc9e1958a0.bindPopup(popup_c166f675b723c9b7f38db02e027e6e72)
+        ;
+
+        
+    
+    
+            var circle_marker_f44283c10d7d665da9774d44a8f358ef = L.circleMarker(
+                [33.6499033, 35.884685],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_9f4ab5b5e553f6f1738cfe53036c5d62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcb4e79aaeae13178e5ab318cf1ad474 = $(`<div id="html_bcb4e79aaeae13178e5ab318cf1ad474" style="width: 100.0%; height: 100.0%;">Al Manara Technical School</div>`)[0];
+            popup_9f4ab5b5e553f6f1738cfe53036c5d62.setContent(html_bcb4e79aaeae13178e5ab318cf1ad474);
+        
+
+        circle_marker_f44283c10d7d665da9774d44a8f358ef.bindPopup(popup_9f4ab5b5e553f6f1738cfe53036c5d62)
+        ;
+
+        
+    
+    
+            var circle_marker_c441eb013159d85f6f369283b8d10b44 = L.circleMarker(
+                [33.5337692, 35.6920825],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_8c007500ae7fb7e9e31f3305655ae4eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5df5a63a4a9461a0a1c495ed8fca270f = $(`<div id="html_5df5a63a4a9461a0a1c495ed8fca270f" style="width: 100.0%; height: 100.0%;">West Bekaa Martyrs Institute</div>`)[0];
+            popup_8c007500ae7fb7e9e31f3305655ae4eb.setContent(html_5df5a63a4a9461a0a1c495ed8fca270f);
+        
+
+        circle_marker_c441eb013159d85f6f369283b8d10b44.bindPopup(popup_8c007500ae7fb7e9e31f3305655ae4eb)
+        ;
+
+        
+    
+    
+            var circle_marker_af7e6c55f815492d3554cbc6d22061ec = L.circleMarker(
+                [33.5265672, 35.8075792],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_6f3202b27958c2d9fcd83cef3a847266 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17d786939686d7eca864919bf72c6945 = $(`<div id="html_17d786939686d7eca864919bf72c6945" style="width: 100.0%; height: 100.0%;">Rashaya Development Technical Institute -  joint project 119</div>`)[0];
+            popup_6f3202b27958c2d9fcd83cef3a847266.setContent(html_17d786939686d7eca864919bf72c6945);
+        
+
+        circle_marker_af7e6c55f815492d3554cbc6d22061ec.bindPopup(popup_6f3202b27958c2d9fcd83cef3a847266)
+        ;
+
+        
+    
+    
+            var circle_marker_b650dba9ee54b62763be0341b5f78034 = L.circleMarker(
+                [33.5010908, 35.8209776],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_60670c2d6c51435428ac372305711442 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21123ef88c62957388baa872e99f25b4 = $(`<div id="html_21123ef88c62957388baa872e99f25b4" style="width: 100.0%; height: 100.0%;">Rachaya Technical Institute</div>`)[0];
+            popup_60670c2d6c51435428ac372305711442.setContent(html_21123ef88c62957388baa872e99f25b4);
+        
+
+        circle_marker_b650dba9ee54b62763be0341b5f78034.bindPopup(popup_60670c2d6c51435428ac372305711442)
+        ;
+
+        
+    
+    
+            var circle_marker_140bde1864461e69262f19eef7f22c24 = L.circleMarker(
+                [33.4751511, 35.491009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_94f1cd04c73c9a292800d08b4622509f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_087c92043222f3cc547c6e75cfda626b = $(`<div id="html_087c92043222f3cc547c6e75cfda626b" style="width: 100.0%; height: 100.0%;">Technical Institute for Food Industries - Qab Elias</div>`)[0];
+            popup_94f1cd04c73c9a292800d08b4622509f.setContent(html_087c92043222f3cc547c6e75cfda626b);
+        
+
+        circle_marker_140bde1864461e69262f19eef7f22c24.bindPopup(popup_94f1cd04c73c9a292800d08b4622509f)
+        ;
+
+        
+    
+    
+            var circle_marker_d2c8b9942902e3213b312c1315ceea5c = L.circleMarker(
+                [33.8423289, 35.902292],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_853dc188c68f625ccd55463bf29e250a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46180613b7567f8b44858ee3b23c5c7a = $(`<div id="html_46180613b7567f8b44858ee3b23c5c7a" style="width: 100.0%; height: 100.0%;">Zahle Technical School</div>`)[0];
+            popup_853dc188c68f625ccd55463bf29e250a.setContent(html_46180613b7567f8b44858ee3b23c5c7a);
+        
+
+        circle_marker_d2c8b9942902e3213b312c1315ceea5c.bindPopup(popup_853dc188c68f625ccd55463bf29e250a)
+        ;
+
+        
+    
+    
+            var circle_marker_1be1586b84f2f90a2dd5a3a2bcde52d6 = L.circleMarker(
+                [33.8365762, 35.9048127],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_2481a7242ee5c3c906958f258de7e348 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3ed9352e9b1262527e7dace456c6c93 = $(`<div id="html_b3ed9352e9b1262527e7dace456c6c93" style="width: 100.0%; height: 100.0%;">Hosh Al Omara Technical Education and Training Institute</div>`)[0];
+            popup_2481a7242ee5c3c906958f258de7e348.setContent(html_b3ed9352e9b1262527e7dace456c6c93);
+        
+
+        circle_marker_1be1586b84f2f90a2dd5a3a2bcde52d6.bindPopup(popup_2481a7242ee5c3c906958f258de7e348)
+        ;
+
+        
+    
+    
+            var circle_marker_5fc57a8c790740f40bd3266c117b5309 = L.circleMarker(
+                [33.8662389, 35.8676764],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_1c64aa368fa2880ef4cc6da1f6196365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c89a7e6826ea65bd0034ac0fcb6b804 = $(`<div id="html_8c89a7e6826ea65bd0034ac0fcb6b804" style="width: 100.0%; height: 100.0%;">Hazrata Technical Institute</div>`)[0];
+            popup_1c64aa368fa2880ef4cc6da1f6196365.setContent(html_8c89a7e6826ea65bd0034ac0fcb6b804);
+        
+
+        circle_marker_5fc57a8c790740f40bd3266c117b5309.bindPopup(popup_1c64aa368fa2880ef4cc6da1f6196365)
+        ;
+
+        
+    
+    
+            var circle_marker_88da4a6d9d7a560939e6f5afeb3cca44 = L.circleMarker(
+                [33.7057612, 35.9042343],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_65bc2c70821f5c712e8591983702c3d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87f112643631cd77d905a5bae501675d = $(`<div id="html_87f112643631cd77d905a5bae501675d" style="width: 100.0%; height: 100.0%;">Majdel Anjar Technical Institute</div>`)[0];
+            popup_65bc2c70821f5c712e8591983702c3d4.setContent(html_87f112643631cd77d905a5bae501675d);
+        
+
+        circle_marker_88da4a6d9d7a560939e6f5afeb3cca44.bindPopup(popup_65bc2c70821f5c712e8591983702c3d4)
+        ;
+
+        
+    
+    
+            var circle_marker_55d0a05ceb1341f0a9bc726544f35e85 = L.circleMarker(
+                [33.5433382, 35.5743444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_dcf84d70af711241da766f6a19b6c3c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ea7fd8af01bbbbfcf3c8cb5b91b889d = $(`<div id="html_9ea7fd8af01bbbbfcf3c8cb5b91b889d" style="width: 100.0%; height: 100.0%;">Maria Aziz Technical Institute</div>`)[0];
+            popup_dcf84d70af711241da766f6a19b6c3c7.setContent(html_9ea7fd8af01bbbbfcf3c8cb5b91b889d);
+        
+
+        circle_marker_55d0a05ceb1341f0a9bc726544f35e85.bindPopup(popup_dcf84d70af711241da766f6a19b6c3c7)
+        ;
+
+        
+    
+    
+            var circle_marker_a89fd5630b9b5b5d7273fe43da70f988 = L.circleMarker(
+                [33.2786276, 35.3053292],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_2f149f7aae47f7c22218df4d073c2761 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_652eea4597c1c8d3cf3b99b80266ab19 = $(`<div id="html_652eea4597c1c8d3cf3b99b80266ab19" style="width: 100.0%; height: 100.0%;">IPNET - Maarake</div>`)[0];
+            popup_2f149f7aae47f7c22218df4d073c2761.setContent(html_652eea4597c1c8d3cf3b99b80266ab19);
+        
+
+        circle_marker_a89fd5630b9b5b5d7273fe43da70f988.bindPopup(popup_2f149f7aae47f7c22218df4d073c2761)
+        ;
+
+        
+    
+    
+            var circle_marker_1d43c4ef8957ba8c615540cc91903e7c = L.circleMarker(
+                [33.1735, 35.1556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_1202cb49266df6b85eecf371f10b3c63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6d65f5ad3811b50ebedda99b311e4b7 = $(`<div id="html_b6d65f5ad3811b50ebedda99b311e4b7" style="width: 100.0%; height: 100.0%;">Martyr Mohamad Saad Technical School</div>`)[0];
+            popup_1202cb49266df6b85eecf371f10b3c63.setContent(html_b6d65f5ad3811b50ebedda99b311e4b7);
+        
+
+        circle_marker_1d43c4ef8957ba8c615540cc91903e7c.bindPopup(popup_1202cb49266df6b85eecf371f10b3c63)
+        ;
+
+        
+    
+    
+            var circle_marker_e9c0771f856cc3ec03ce9bb081a9ef0a = L.circleMarker(
+                [33.2624014, 35.2172974],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_af84ba66f8eaed9427dc5a8095b0756e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a9fe809a63b0a67ce17911c72ed4454 = $(`<div id="html_0a9fe809a63b0a67ce17911c72ed4454" style="width: 100.0%; height: 100.0%;">Tyr Technical School</div>`)[0];
+            popup_af84ba66f8eaed9427dc5a8095b0756e.setContent(html_0a9fe809a63b0a67ce17911c72ed4454);
+        
+
+        circle_marker_e9c0771f856cc3ec03ce9bb081a9ef0a.bindPopup(popup_af84ba66f8eaed9427dc5a8095b0756e)
+        ;
+
+        
+    
+    
+            var circle_marker_86ceec5a8dbbf5c79303e678845ac123 = L.circleMarker(
+                [33.2188199, 35.2704171],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_0d46abe81f381c83bab810d500016d2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_795463f5469e5b07afd47888b4bf8fe6 = $(`<div id="html_795463f5469e5b07afd47888b4bf8fe6" style="width: 100.0%; height: 100.0%;">Qana Technical School</div>`)[0];
+            popup_0d46abe81f381c83bab810d500016d2a.setContent(html_795463f5469e5b07afd47888b4bf8fe6);
+        
+
+        circle_marker_86ceec5a8dbbf5c79303e678845ac123.bindPopup(popup_0d46abe81f381c83bab810d500016d2a)
+        ;
+
+        
+    
+    
+            var circle_marker_cbb5dd227acdd35754505ddcf9493c76 = L.circleMarker(
+                [33.2472371, 35.3218192],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_71a17ac973afbdbb31e8c19adcad0ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ffc88435125152ad11eb31aabeb1604 = $(`<div id="html_2ffc88435125152ad11eb31aabeb1604" style="width: 100.0%; height: 100.0%;">Jwaya Technical Institute</div>`)[0];
+            popup_71a17ac973afbdbb31e8c19adcad0ae6.setContent(html_2ffc88435125152ad11eb31aabeb1604);
+        
+
+        circle_marker_cbb5dd227acdd35754505ddcf9493c76.bindPopup(popup_71a17ac973afbdbb31e8c19adcad0ae6)
+        ;
+
+        
+    
+    
+            var circle_marker_88963ca10e577202875b04656d72807c = L.circleMarker(
+                [33.4271085, 35.3344479],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_8b6f14e0ed9d58b9cbcd2d413f1d9a20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f1b19073e8b9d28de891e9d3affe8e0 = $(`<div id="html_0f1b19073e8b9d28de891e9d3affe8e0" style="width: 100.0%; height: 100.0%;">Al Amal Technical Institute</div>`)[0];
+            popup_8b6f14e0ed9d58b9cbcd2d413f1d9a20.setContent(html_0f1b19073e8b9d28de891e9d3affe8e0);
+        
+
+        circle_marker_88963ca10e577202875b04656d72807c.bindPopup(popup_8b6f14e0ed9d58b9cbcd2d413f1d9a20)
+        ;
+
+        
+    
+    
+            var circle_marker_9dbdf98ca9c8b7163c436ba1c0a375c5 = L.circleMarker(
+                [33.5627485, 35.4181905],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_781cd9274b3c058a092f24a6761e7d38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9511a467a2f2cba1c4be811a0f9828b2 = $(`<div id="html_9511a467a2f2cba1c4be811a0f9828b2" style="width: 100.0%; height: 100.0%;">Dar Al-Inaya Technical Institute, Al-Salhiya</div>`)[0];
+            popup_781cd9274b3c058a092f24a6761e7d38.setContent(html_9511a467a2f2cba1c4be811a0f9828b2);
+        
+
+        circle_marker_9dbdf98ca9c8b7163c436ba1c0a375c5.bindPopup(popup_781cd9274b3c058a092f24a6761e7d38)
+        ;
+
+        
+    
+    
+            var circle_marker_7bfeb4808bdb413fa8b1fdc04a55915e = L.circleMarker(
+                [33.4935738, 35.4280146],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_f42783fe5bdb84786ec420bd24619c8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79a04cc6d04d1bd9c43ca97c515a95f8 = $(`<div id="html_79a04cc6d04d1bd9c43ca97c515a95f8" style="width: 100.0%; height: 100.0%;">Ankoun Technical Institute</div>`)[0];
+            popup_f42783fe5bdb84786ec420bd24619c8d.setContent(html_79a04cc6d04d1bd9c43ca97c515a95f8);
+        
+
+        circle_marker_7bfeb4808bdb413fa8b1fdc04a55915e.bindPopup(popup_f42783fe5bdb84786ec420bd24619c8d)
+        ;
+
+        
+    
+    
+            var circle_marker_3b84a761c3bf6b06990b6acd88fe7c36 = L.circleMarker(
+                [34.205474, 35.8454903],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_764dd269ae42442260bd19d53575270f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e76122aa87ea3d15edfc445019c5354b = $(`<div id="html_e76122aa87ea3d15edfc445019c5354b" style="width: 100.0%; height: 100.0%;">Douma Technical School</div>`)[0];
+            popup_764dd269ae42442260bd19d53575270f.setContent(html_e76122aa87ea3d15edfc445019c5354b);
+        
+
+        circle_marker_3b84a761c3bf6b06990b6acd88fe7c36.bindPopup(popup_764dd269ae42442260bd19d53575270f)
+        ;
+
+        
+    
+    
+            var circle_marker_6d7fcc1d04b1288e259bf82b11b8321e = L.circleMarker(
+                [34.2539284, 35.6628268],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_093ab814fa326e1dcdbac12ace240b25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a78ae53bbe0070452dff8100a575e094 = $(`<div id="html_a78ae53bbe0070452dff8100a575e094" style="width: 100.0%; height: 100.0%;">Batroun Technical Institute</div>`)[0];
+            popup_093ab814fa326e1dcdbac12ace240b25.setContent(html_a78ae53bbe0070452dff8100a575e094);
+        
+
+        circle_marker_6d7fcc1d04b1288e259bf82b11b8321e.bindPopup(popup_093ab814fa326e1dcdbac12ace240b25)
+        ;
+
+        
+    
+    
+            var circle_marker_422159938e2b549ecc1d3801f7c26db4 = L.circleMarker(
+                [34.4076664, 35.8321674],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_e22862e28227b06ed73e7852044c5409 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d42615959373e1145df9064d7f06bc5 = $(`<div id="html_1d42615959373e1145df9064d7f06bc5" style="width: 100.0%; height: 100.0%;">International Institute of Sciences and Professions</div>`)[0];
+            popup_e22862e28227b06ed73e7852044c5409.setContent(html_1d42615959373e1145df9064d7f06bc5);
+        
+
+        circle_marker_422159938e2b549ecc1d3801f7c26db4.bindPopup(popup_e22862e28227b06ed73e7852044c5409)
+        ;
+
+        
+    
+    
+            var circle_marker_b01e6fece5360a9cb33c55c218a12828 = L.circleMarker(
+                [34.4251396, 35.9684323],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_f85c625455e85a2db995e1ccab14b1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc227e4b9940c2723d747bb26d165240 = $(`<div id="html_cc227e4b9940c2723d747bb26d165240" style="width: 100.0%; height: 100.0%;">Al Saadah International Institute of Sciences and Professions - Sir el Donnie</div>`)[0];
+            popup_f85c625455e85a2db995e1ccab14b1f5.setContent(html_cc227e4b9940c2723d747bb26d165240);
+        
+
+        circle_marker_b01e6fece5360a9cb33c55c218a12828.bindPopup(popup_f85c625455e85a2db995e1ccab14b1f5)
+        ;
+
+        
+    
+    
+            var circle_marker_2d606673bd47e7c7a7550e489349d6fe = L.circleMarker(
+                [34.4245943, 36.0176323],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_13fd692fd587fd1d0058831d5e52e024 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cd0502045fe3854461a05f71fbdb6b5 = $(`<div id="html_6cd0502045fe3854461a05f71fbdb6b5" style="width: 100.0%; height: 100.0%;">Bakhoun Technical Institute</div>`)[0];
+            popup_13fd692fd587fd1d0058831d5e52e024.setContent(html_6cd0502045fe3854461a05f71fbdb6b5);
+        
+
+        circle_marker_2d606673bd47e7c7a7550e489349d6fe.bindPopup(popup_13fd692fd587fd1d0058831d5e52e024)
+        ;
+
+        
+    
+    
+            var circle_marker_b79ac7206e69a75f54b599055130f38a = L.circleMarker(
+                [34.2526927, 36.0101678],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_4b7efd5945e9c06b98be73f9f1445290 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d816a2c86e5e0ae14e24d8e27c4e5273 = $(`<div id="html_d816a2c86e5e0ae14e24d8e27c4e5273" style="width: 100.0%; height: 100.0%;">Bcharri Technical Institute</div>`)[0];
+            popup_4b7efd5945e9c06b98be73f9f1445290.setContent(html_d816a2c86e5e0ae14e24d8e27c4e5273);
+        
+
+        circle_marker_b79ac7206e69a75f54b599055130f38a.bindPopup(popup_4b7efd5945e9c06b98be73f9f1445290)
+        ;
+
+        
+    
+    
+            var circle_marker_640160ca689d99e4fc43189e92a9f148 = L.circleMarker(
+                [34.4142948, 35.8833038],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_22a2ab4df9a58b5905e84aa2b3dcd364 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dfb394f1f6beb202706e8bb66818c7f = $(`<div id="html_0dfb394f1f6beb202706e8bb66818c7f" style="width: 100.0%; height: 100.0%;">Renne Mouawad Technical Institute</div>`)[0];
+            popup_22a2ab4df9a58b5905e84aa2b3dcd364.setContent(html_0dfb394f1f6beb202706e8bb66818c7f);
+        
+
+        circle_marker_640160ca689d99e4fc43189e92a9f148.bindPopup(popup_22a2ab4df9a58b5905e84aa2b3dcd364)
+        ;
+
+        
+    
+    
+            var circle_marker_2bdfd528dab5ec2eb6c90f11bbd8618b = L.circleMarker(
+                [34.3109726, 35.887243],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_cfb0445b17a931362ef13f0f93dbe980 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a97872719711589cf97c6c5e260362b8 = $(`<div id="html_a97872719711589cf97c6c5e260362b8" style="width: 100.0%; height: 100.0%;">Mar Youhana Technical Institute</div>`)[0];
+            popup_cfb0445b17a931362ef13f0f93dbe980.setContent(html_a97872719711589cf97c6c5e260362b8);
+        
+
+        circle_marker_2bdfd528dab5ec2eb6c90f11bbd8618b.bindPopup(popup_cfb0445b17a931362ef13f0f93dbe980)
+        ;
+
+        
+    
+    
+            var circle_marker_bb85640f72f1c30754ef1d7c2a917343 = L.circleMarker(
+                [34.4549097, 35.8113263],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_d3af67dd339e60b4c4b6e85352031b64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00fc7b94e508e5a9dd65f31774390a4e = $(`<div id="html_00fc7b94e508e5a9dd65f31774390a4e" style="width: 100.0%; height: 100.0%;">Hotelerie School - Tripoli</div>`)[0];
+            popup_d3af67dd339e60b4c4b6e85352031b64.setContent(html_00fc7b94e508e5a9dd65f31774390a4e);
+        
+
+        circle_marker_bb85640f72f1c30754ef1d7c2a917343.bindPopup(popup_d3af67dd339e60b4c4b6e85352031b64)
+        ;
+
+        
+    
+    
+            var circle_marker_cd74dec2dcfebf5e34085ece60ed7ab6 = L.circleMarker(
+                [34.4549097, 35.8113263],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_8cd73db478f042e574e966ce910a8d56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1747da99fe9630f49faeff9a959f0d26 = $(`<div id="html_1747da99fe9630f49faeff9a959f0d26" style="width: 100.0%; height: 100.0%;">Industrial Technical Institute - Tripoli</div>`)[0];
+            popup_8cd73db478f042e574e966ce910a8d56.setContent(html_1747da99fe9630f49faeff9a959f0d26);
+        
+
+        circle_marker_cd74dec2dcfebf5e34085ece60ed7ab6.bindPopup(popup_8cd73db478f042e574e966ce910a8d56)
+        ;
+
+        
+    
+    
+            var circle_marker_d8a053d5370eb11c15a45af0c969d875 = L.circleMarker(
+                [34.4547922, 35.8106336],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_349806ff5b2362d51746daffa5ec0c3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daca128550579ecfd4bd57bb60a68a32 = $(`<div id="html_daca128550579ecfd4bd57bb60a68a32" style="width: 100.0%; height: 100.0%;">Al Fayhaa Technical Institute</div>`)[0];
+            popup_349806ff5b2362d51746daffa5ec0c3d.setContent(html_daca128550579ecfd4bd57bb60a68a32);
+        
+
+        circle_marker_d8a053d5370eb11c15a45af0c969d875.bindPopup(popup_349806ff5b2362d51746daffa5ec0c3d)
+        ;
+
+        
+    
+    
+            var circle_marker_edb9b9689570493abe4b33026d31da00 = L.circleMarker(
+                [34.376224, 35.7769196],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_9fed0471e9c908d468f5066a80375785 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_722ec9898dfbc6905724be3a16b9f352 = $(`<div id="html_722ec9898dfbc6905724be3a16b9f352" style="width: 100.0%; height: 100.0%;">Al Qalamoun Technical Institute</div>`)[0];
+            popup_9fed0471e9c908d468f5066a80375785.setContent(html_722ec9898dfbc6905724be3a16b9f352);
+        
+
+        circle_marker_edb9b9689570493abe4b33026d31da00.bindPopup(popup_9fed0471e9c908d468f5066a80375785)
+        ;
+
+        
+    
+    
+            var circle_marker_78353811fbc9b7dba616b50406acf552 = L.circleMarker(
+                [34.4399919, 35.8513982],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_053e84eccf174d6b4afd45c81f79614f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a56ed9c4f438ea608795853d179f780e = $(`<div id="html_a56ed9c4f438ea608795853d179f780e" style="width: 100.0%; height: 100.0%;">Al Maharat Technical Institute</div>`)[0];
+            popup_053e84eccf174d6b4afd45c81f79614f.setContent(html_a56ed9c4f438ea608795853d179f780e);
+        
+
+        circle_marker_78353811fbc9b7dba616b50406acf552.bindPopup(popup_053e84eccf174d6b4afd45c81f79614f)
+        ;
+
+        
+    
+    
+            var circle_marker_8b73fc18cd784a20beff455e9191e4cc = L.circleMarker(
+                [34.4425872, 35.860865],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_8643ebecaf758b0e3dc5d96fea2764ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11acdbea931049a2e8341a6fcafd05c2 = $(`<div id="html_11acdbea931049a2e8341a6fcafd05c2" style="width: 100.0%; height: 100.0%;">Jabal Mehsen Technical Institute</div>`)[0];
+            popup_8643ebecaf758b0e3dc5d96fea2764ea.setContent(html_11acdbea931049a2e8341a6fcafd05c2);
+        
+
+        circle_marker_8b73fc18cd784a20beff455e9191e4cc.bindPopup(popup_8643ebecaf758b0e3dc5d96fea2764ea)
+        ;
+
+        
+    
+    
+            var circle_marker_9f3d4faa3be9bae1903f4b268a97c56c = L.circleMarker(
+                [34.4174861, 35.8379858],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_2eef0cff030c536c1c488b559ba97868 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa5b48fa4a7ce869bae71c42bc5c8028 = $(`<div id="html_fa5b48fa4a7ce869bae71c42bc5c8028" style="width: 100.0%; height: 100.0%;">Tripoli Technical Institute - Abi Samra</div>`)[0];
+            popup_2eef0cff030c536c1c488b559ba97868.setContent(html_fa5b48fa4a7ce869bae71c42bc5c8028);
+        
+
+        circle_marker_9f3d4faa3be9bae1903f4b268a97c56c.bindPopup(popup_2eef0cff030c536c1c488b559ba97868)
+        ;
+
+        
+    
+    
+            var circle_marker_4356a4f58c4378c84fa7c4284d4ab4f1 = L.circleMarker(
+                [33.3781911, 35.3607794],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_35df21c88237148793e96cdefdae2935 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ea8b562001371c43ad02d7c039a4a06 = $(`<div id="html_1ea8b562001371c43ad02d7c039a4a06" style="width: 100.0%; height: 100.0%;">Ansar Technical Institute</div>`)[0];
+            popup_35df21c88237148793e96cdefdae2935.setContent(html_1ea8b562001371c43ad02d7c039a4a06);
+        
+
+        circle_marker_4356a4f58c4378c84fa7c4284d4ab4f1.bindPopup(popup_35df21c88237148793e96cdefdae2935)
+        ;
+
+        
+    
+    
+            var circle_marker_998d37710f95ca9edc21e3589a65f5d7 = L.circleMarker(
+                [33.4598078, 35.459287],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_6fea1121bed6f4869783e70c2aa432fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf8e8aee610a7f799013c738fa3d2e16 = $(`<div id="html_bf8e8aee610a7f799013c738fa3d2e16" style="width: 100.0%; height: 100.0%;">Roumin Technical School</div>`)[0];
+            popup_6fea1121bed6f4869783e70c2aa432fe.setContent(html_bf8e8aee610a7f799013c738fa3d2e16);
+        
+
+        circle_marker_998d37710f95ca9edc21e3589a65f5d7.bindPopup(popup_6fea1121bed6f4869783e70c2aa432fe)
+        ;
+
+        
+    
+    
+            var circle_marker_fcbb9c333263495b40eab06acca5c743 = L.circleMarker(
+                [33.3364439, 35.3546543],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_86f9504c8c1eef0300585025c9db2386 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54dc7d91df4c21082365260f4ea261d7 = $(`<div id="html_54dc7d91df4c21082365260f4ea261d7" style="width: 100.0%; height: 100.0%;"> Al-Zarriya and Sir Al-Gharbiya Martyrs Technical School</div>`)[0];
+            popup_86f9504c8c1eef0300585025c9db2386.setContent(html_54dc7d91df4c21082365260f4ea261d7);
+        
+
+        circle_marker_fcbb9c333263495b40eab06acca5c743.bindPopup(popup_86f9504c8c1eef0300585025c9db2386)
+        ;
+
+        
+    
+    
+            var circle_marker_081917d1fd0349359280a0724d737c07 = L.circleMarker(
+                [33.376759, 35.4789056],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_9c0570197352260b62327cf60d39259a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7890df551afe0dcfb0edd40fa6c42d81 = $(`<div id="html_7890df551afe0dcfb0edd40fa6c42d81" style="width: 100.0%; height: 100.0%;">Nabatiyeh Technical Institute</div>`)[0];
+            popup_9c0570197352260b62327cf60d39259a.setContent(html_7890df551afe0dcfb0edd40fa6c42d81);
+        
+
+        circle_marker_081917d1fd0349359280a0724d737c07.bindPopup(popup_9c0570197352260b62327cf60d39259a)
+        ;
+
+        
+    
+    
+            var circle_marker_8a13e34d14ae857b5e0b05dd3297aafa = L.circleMarker(
+                [33.4844843, 35.5259718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_9d569c3081da8d791a8c9c01caba8806 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1597428f0c3cc2442865f820240984ac = $(`<div id="html_1597428f0c3cc2442865f820240984ac" style="width: 100.0%; height: 100.0%;">Jbaa Technical Institute</div>`)[0];
+            popup_9d569c3081da8d791a8c9c01caba8806.setContent(html_1597428f0c3cc2442865f820240984ac);
+        
+
+        circle_marker_8a13e34d14ae857b5e0b05dd3297aafa.bindPopup(popup_9d569c3081da8d791a8c9c01caba8806)
+        ;
+
+        
+    
+    
+            var circle_marker_fbbf7e1e041b3072065eb9f5905f0b1b = L.circleMarker(
+                [33.0751461, 35.370235],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_635e3d9512117656f2166384422a99bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49316f3fdcc1008ea2bcabfc767926ae = $(`<div id="html_49316f3fdcc1008ea2bcabfc767926ae" style="width: 100.0%; height: 100.0%;">Rmeich Technical School</div>`)[0];
+            popup_635e3d9512117656f2166384422a99bc.setContent(html_49316f3fdcc1008ea2bcabfc767926ae);
+        
+
+        circle_marker_fbbf7e1e041b3072065eb9f5905f0b1b.bindPopup(popup_635e3d9512117656f2166384422a99bc)
+        ;
+
+        
+    
+    
+            var circle_marker_a115e455940b029c59fa41433b6cab6a = L.circleMarker(
+                [33.0879188, 35.330216],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_dbbbfd52962ac7f437ad3f077cb2c400 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ae64d590454b52d01d78d9f75fc7ad5 = $(`<div id="html_2ae64d590454b52d01d78d9f75fc7ad5" style="width: 100.0%; height: 100.0%;">Aita el Chaab Technical School</div>`)[0];
+            popup_dbbbfd52962ac7f437ad3f077cb2c400.setContent(html_2ae64d590454b52d01d78d9f75fc7ad5);
+        
+
+        circle_marker_a115e455940b029c59fa41433b6cab6a.bindPopup(popup_dbbbfd52962ac7f437ad3f077cb2c400)
+        ;
+
+        
+    
+    
+            var circle_marker_7643b9e20c54745ee4fc0e1c57f34c8c = L.circleMarker(
+                [33.4188805, 35.7117577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_cd2bb2a49760ed2bd0a34ff881c05e12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_902d5b76aa1b632067fe3e03ad8d9e8c = $(`<div id="html_902d5b76aa1b632067fe3e03ad8d9e8c" style="width: 100.0%; height: 100.0%;">Mimeis Technical Institute</div>`)[0];
+            popup_cd2bb2a49760ed2bd0a34ff881c05e12.setContent(html_902d5b76aa1b632067fe3e03ad8d9e8c);
+        
+
+        circle_marker_7643b9e20c54745ee4fc0e1c57f34c8c.bindPopup(popup_cd2bb2a49760ed2bd0a34ff881c05e12)
+        ;
+
+        
+    
+    
+            var circle_marker_c5e299bf18c657df854141522f268890 = L.circleMarker(
+                [33.2678227, 35.4577408],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_588b425f385c2f17863c76c6c3a31c68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2481417425d45411bbbaa818f05da131 = $(`<div id="html_2481417425d45411bbbaa818f05da131" style="width: 100.0%; height: 100.0%;">Kantara Technical School</div>`)[0];
+            popup_588b425f385c2f17863c76c6c3a31c68.setContent(html_2481417425d45411bbbaa818f05da131);
+        
+
+        circle_marker_c5e299bf18c657df854141522f268890.bindPopup(popup_588b425f385c2f17863c76c6c3a31c68)
+        ;
+
+        
+    
+    
+            var circle_marker_33a2a6fb208d1a69130e72fdf005bb76 = L.circleMarker(
+                [33.362481, 35.5878981],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_4b6ca75fa540550b68fb18e9693237cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c477e606c032dc1702c8a5def3d48094 = $(`<div id="html_c477e606c032dc1702c8a5def3d48094" style="width: 100.0%; height: 100.0%;">Marjaayoun Technical School</div>`)[0];
+            popup_4b6ca75fa540550b68fb18e9693237cf.setContent(html_c477e606c032dc1702c8a5def3d48094);
+        
+
+        circle_marker_33a2a6fb208d1a69130e72fdf005bb76.bindPopup(popup_4b6ca75fa540550b68fb18e9693237cf)
+        ;
+
+        
+    
+    
+            var circle_marker_295de3f6c8b8ad5192814285b9ef3e1f = L.circleMarker(
+                [33.1634882, 35.5234293],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_c270e3ec40892facccc26029b142107b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_840259c7731c6f4584b3f7e0f11be9a2 = $(`<div id="html_840259c7731c6f4584b3f7e0f11be9a2" style="width: 100.0%; height: 100.0%;">Mays el Jabal Technical School</div>`)[0];
+            popup_c270e3ec40892facccc26029b142107b.setContent(html_840259c7731c6f4584b3f7e0f11be9a2);
+        
+
+        circle_marker_295de3f6c8b8ad5192814285b9ef3e1f.bindPopup(popup_c270e3ec40892facccc26029b142107b)
+        ;
+
+        
+    
+    
+            var circle_marker_a7177fb751a3db1621f63dacc92a8cc8 = L.circleMarker(
+                [33.3126974, 35.6020136],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_95828d65b5ff12f6167285b298b4a1a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dc31a75ed1707f9a981ad1e465a9f19 = $(`<div id="html_0dc31a75ed1707f9a981ad1e465a9f19" style="width: 100.0%; height: 100.0%;">Al Khiyam Martyrs Technical Institute</div>`)[0];
+            popup_95828d65b5ff12f6167285b298b4a1a4.setContent(html_0dc31a75ed1707f9a981ad1e465a9f19);
+        
+
+        circle_marker_a7177fb751a3db1621f63dacc92a8cc8.bindPopup(popup_95828d65b5ff12f6167285b298b4a1a4)
+        ;
+
+        
+    
+    
+            var circle_marker_f7e11a533241e8ac8df80ec33374af13 = L.circleMarker(
+                [34.4748105, 36.4362989],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_bd461a788751f61073dfc626b0599577 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbaaa79d5d67d3b91825cbee3ab582b9 = $(`<div id="html_cbaaa79d5d67d3b91825cbee3ab582b9" style="width: 100.0%; height: 100.0%;">Al Kasser Technical Institute</div>`)[0];
+            popup_bd461a788751f61073dfc626b0599577.setContent(html_cbaaa79d5d67d3b91825cbee3ab582b9);
+        
+
+        circle_marker_f7e11a533241e8ac8df80ec33374af13.bindPopup(popup_bd461a788751f61073dfc626b0599577)
+        ;
+
+        
+    
+    
+            var circle_marker_3b4323511fb1a5f25b131e951f74726c = L.circleMarker(
+                [34.3931136, 36.4010797],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_6447f3264e34386d45f69ae4f56f29f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a351e60eb53bb885947ac4f3c2812e54 = $(`<div id="html_a351e60eb53bb885947ac4f3c2812e54" style="width: 100.0%; height: 100.0%;">Hermel Technical Institute model</div>`)[0];
+            popup_6447f3264e34386d45f69ae4f56f29f6.setContent(html_a351e60eb53bb885947ac4f3c2812e54);
+        
+
+        circle_marker_3b4323511fb1a5f25b131e951f74726c.bindPopup(popup_6447f3264e34386d45f69ae4f56f29f6)
+        ;
+
+        
+    
+    
+            var circle_marker_3b253bf215cd118b49d88b4fffdcfaf9 = L.circleMarker(
+                [33.8786283, 36.1178117],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_c7feeb04615728c47bbf6b79d81a515d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3a0dcb54c15f894bc7bb3eba490bc7b = $(`<div id="html_a3a0dcb54c15f894bc7bb3eba490bc7b" style="width: 100.0%; height: 100.0%;">Nabi Chit Technical School</div>`)[0];
+            popup_c7feeb04615728c47bbf6b79d81a515d.setContent(html_a3a0dcb54c15f894bc7bb3eba490bc7b);
+        
+
+        circle_marker_3b253bf215cd118b49d88b4fffdcfaf9.bindPopup(popup_c7feeb04615728c47bbf6b79d81a515d)
+        ;
+
+        
+    
+    
+            var circle_marker_dc55e2414f19b0b45bc2600d3487a29f = L.circleMarker(
+                [34.0125707, 36.217035],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_6a005f4f25bc75e4243724aa5409d8fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f44fab489c5fccf4df5b437e160b2d69 = $(`<div id="html_f44fab489c5fccf4df5b437e160b2d69" style="width: 100.0%; height: 100.0%;">AL Abrar Technical Institute</div>`)[0];
+            popup_6a005f4f25bc75e4243724aa5409d8fc.setContent(html_f44fab489c5fccf4df5b437e160b2d69);
+        
+
+        circle_marker_dc55e2414f19b0b45bc2600d3487a29f.bindPopup(popup_6a005f4f25bc75e4243724aa5409d8fc)
+        ;
+
+        
+    
+    
+            var circle_marker_5dfd1d66b0cfc0c9de96e46a6a618d2d = L.circleMarker(
+                [34.2302015, 36.3863793],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_9e78514dd40b79bc6b74357b43dea277 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99d287dd8bf1101f60a1ebafec134560 = $(`<div id="html_99d287dd8bf1101f60a1ebafec134560" style="width: 100.0%; height: 100.0%;">El Ein Technical Institute</div>`)[0];
+            popup_9e78514dd40b79bc6b74357b43dea277.setContent(html_99d287dd8bf1101f60a1ebafec134560);
+        
+
+        circle_marker_5dfd1d66b0cfc0c9de96e46a6a618d2d.bindPopup(popup_9e78514dd40b79bc6b74357b43dea277)
+        ;
+
+        
+    
+    
+            var circle_marker_322b9e3292f1bfbc19056b79c4b16a35 = L.circleMarker(
+                [34.1303438, 36.0316605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_3485b6aa5519a8fa02dae731c252d170 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1750a19dbb49f49606d625328570b94 = $(`<div id="html_b1750a19dbb49f49606d625328570b94" style="width: 100.0%; height: 100.0%;">Yammouneh Technical Institute</div>`)[0];
+            popup_3485b6aa5519a8fa02dae731c252d170.setContent(html_b1750a19dbb49f49606d625328570b94);
+        
+
+        circle_marker_322b9e3292f1bfbc19056b79c4b16a35.bindPopup(popup_3485b6aa5519a8fa02dae731c252d170)
+        ;
+
+        
+    
+    
+            var circle_marker_33765e56b8a25186a351406dc47aa508 = L.circleMarker(
+                [33.932843, 36.1437706],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_594fd8350c84641102f5c5e385054887 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfd1f59c9b339472c44932d5ab50488e = $(`<div id="html_dfd1f59c9b339472c44932d5ab50488e" style="width: 100.0%; height: 100.0%;">Brital Technical Institute</div>`)[0];
+            popup_594fd8350c84641102f5c5e385054887.setContent(html_dfd1f59c9b339472c44932d5ab50488e);
+        
+
+        circle_marker_33765e56b8a25186a351406dc47aa508.bindPopup(popup_594fd8350c84641102f5c5e385054887)
+        ;
+
+        
+    
+    
+            var circle_marker_4bb1571b03702610e0c58479a43a20c8 = L.circleMarker(
+                [34.061417, 36.0532884],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_f0275313d61e49d677f75735ff10546d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1490452bf25c986a0321477ed6afae07 = $(`<div id="html_1490452bf25c986a0321477ed6afae07" style="width: 100.0%; height: 100.0%;">Bouday Technical Institute</div>`)[0];
+            popup_f0275313d61e49d677f75735ff10546d.setContent(html_1490452bf25c986a0321477ed6afae07);
+        
+
+        circle_marker_4bb1571b03702610e0c58479a43a20c8.bindPopup(popup_f0275313d61e49d677f75735ff10546d)
+        ;
+
+        
+    
+    
+            var circle_marker_fa533bc695e1f12c5c29fc2cbe5ae14f = L.circleMarker(
+                [34.1172663, 36.1337913],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_4cc24a6de8cbe55f36054827cdf5038c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d55b6654858b6474b604fb924d45c82f = $(`<div id="html_d55b6654858b6474b604fb924d45c82f" style="width: 100.0%; height: 100.0%;">Dei el Ahmar Technical Institute</div>`)[0];
+            popup_4cc24a6de8cbe55f36054827cdf5038c.setContent(html_d55b6654858b6474b604fb924d45c82f);
+        
+
+        circle_marker_fa533bc695e1f12c5c29fc2cbe5ae14f.bindPopup(popup_4cc24a6de8cbe55f36054827cdf5038c)
+        ;
+
+        
+    
+    
+            var circle_marker_4928f53e3051da9c6268b62540150681 = L.circleMarker(
+                [34.2599159, 36.4085381],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_3bf9d0fcd61ea70aa931eb89cf0eb061 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b34796faddf627d8e77fc42694f8a572 = $(`<div id="html_b34796faddf627d8e77fc42694f8a572" style="width: 100.0%; height: 100.0%;">Ras Baalbeck Technical Institute</div>`)[0];
+            popup_3bf9d0fcd61ea70aa931eb89cf0eb061.setContent(html_b34796faddf627d8e77fc42694f8a572);
+        
+
+        circle_marker_4928f53e3051da9c6268b62540150681.bindPopup(popup_3bf9d0fcd61ea70aa931eb89cf0eb061)
+        ;
+
+        
+    
+    
+            var circle_marker_5c7a446110f660f93869d21f49514145 = L.circleMarker(
+                [34.1433267, 36.2346765],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_215ab54873c08304e5b755c0cd6162c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47e4e0133aa8155de58be5356797a977 = $(`<div id="html_47e4e0133aa8155de58be5356797a977" style="width: 100.0%; height: 100.0%;">Chaat Technical Institute</div>`)[0];
+            popup_215ab54873c08304e5b755c0cd6162c9.setContent(html_47e4e0133aa8155de58be5356797a977);
+        
+
+        circle_marker_5c7a446110f660f93869d21f49514145.bindPopup(popup_215ab54873c08304e5b755c0cd6162c9)
+        ;
+
+        
+    
+    
+            var circle_marker_fea089eda864cf2a268c2d41127a3d05 = L.circleMarker(
+                [33.9750518, 36.0010371],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_2399244939a3ed25081f235e2886196a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae81b635d94b7309e134a02f994d4998 = $(`<div id="html_ae81b635d94b7309e134a02f994d4998" style="width: 100.0%; height: 100.0%;">Shmustar Technical Institute</div>`)[0];
+            popup_2399244939a3ed25081f235e2886196a.setContent(html_ae81b635d94b7309e134a02f994d4998);
+        
+
+        circle_marker_fea089eda864cf2a268c2d41127a3d05.bindPopup(popup_2399244939a3ed25081f235e2886196a)
+        ;
+
+        
+    
+    
+            var circle_marker_67ed354645e3d3dfa7123f82357dcde6 = L.circleMarker(
+                [34.195567, 36.402219],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_89649ef828631902585dede5d3aedd9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f958702befecf0ffe0bf61d6af130302 = $(`<div id="html_f958702befecf0ffe0bf61d6af130302" style="width: 100.0%; height: 100.0%;">Arsal Technical Institute</div>`)[0];
+            popup_89649ef828631902585dede5d3aedd9e.setContent(html_f958702befecf0ffe0bf61d6af130302);
+        
+
+        circle_marker_67ed354645e3d3dfa7123f82357dcde6.bindPopup(popup_89649ef828631902585dede5d3aedd9e)
+        ;
+
+        
+    
+    
+            var circle_marker_434c51aef4ccf6fff378815e3c69618c = L.circleMarker(
+                [33.7337121, 35.4602813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_6062af258f5c0d9503dd1b4632d9e4a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f13e60990d785e97637bca22fab2f3e9 = $(`<div id="html_f13e60990d785e97637bca22fab2f3e9" style="width: 100.0%; height: 100.0%;">Damour Technical School</div>`)[0];
+            popup_6062af258f5c0d9503dd1b4632d9e4a4.setContent(html_f13e60990d785e97637bca22fab2f3e9);
+        
+
+        circle_marker_434c51aef4ccf6fff378815e3c69618c.bindPopup(popup_6062af258f5c0d9503dd1b4632d9e4a4)
+        ;
+
+        
+    
+    
+            var circle_marker_f7f347a0b83c01306c641c45827ec016 = L.circleMarker(
+                [33.6225439, 35.4467032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_c02838bb984128dee5253b49a608da51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dfb3137b9a100b8ea56489b18ff0914 = $(`<div id="html_8dfb3137b9a100b8ea56489b18ff0914" style="width: 100.0%; height: 100.0%;">Katermaya Technical School</div>`)[0];
+            popup_c02838bb984128dee5253b49a608da51.setContent(html_8dfb3137b9a100b8ea56489b18ff0914);
+        
+
+        circle_marker_f7f347a0b83c01306c641c45827ec016.bindPopup(popup_c02838bb984128dee5253b49a608da51)
+        ;
+
+        
+    
+    
+            var circle_marker_d98e704cc5da30b6bad5cbd2ef51fe8d = L.circleMarker(
+                [33.6809335, 35.6095529],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_a30395be0cb330f28eb31342b46f0bd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76e93ee30c713be8897a67c254ad1c29 = $(`<div id="html_76e93ee30c713be8897a67c254ad1c29" style="width: 100.0%; height: 100.0%;">Nursing Technical Institute - Ein w Zein</div>`)[0];
+            popup_a30395be0cb330f28eb31342b46f0bd6.setContent(html_76e93ee30c713be8897a67c254ad1c29);
+        
+
+        circle_marker_d98e704cc5da30b6bad5cbd2ef51fe8d.bindPopup(popup_a30395be0cb330f28eb31342b46f0bd6)
+        ;
+
+        
+    
+    
+            var circle_marker_3398fc1c57528c2b6b6ddb3202c6deec = L.circleMarker(
+                [33.878465, 35.54779],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_e58891a5cf19f317fe08fa003399290c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9105d75d849dbc16cbe1b334557c6ed = $(`<div id="html_e9105d75d849dbc16cbe1b334557c6ed" style="width: 100.0%; height: 100.0%;">Higher Industrial Technical Institute - Dekwaneh</div>`)[0];
+            popup_e58891a5cf19f317fe08fa003399290c.setContent(html_e9105d75d849dbc16cbe1b334557c6ed);
+        
+
+        circle_marker_3398fc1c57528c2b6b6ddb3202c6deec.bindPopup(popup_e58891a5cf19f317fe08fa003399290c)
+        ;
+
+        
+    
+    
+            var circle_marker_5ca6ce4355d29afc4f211ae776f19dae = L.circleMarker(
+                [33.8785803, 35.5481902],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_9220726ce05cbaf3c6d35cf522d51c91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb7b29d7f09da287baaad07fd9000ce7 = $(`<div id="html_eb7b29d7f09da287baaad07fd9000ce7" style="width: 100.0%; height: 100.0%;">Industrial Technical Institute - Dekwaneh</div>`)[0];
+            popup_9220726ce05cbaf3c6d35cf522d51c91.setContent(html_eb7b29d7f09da287baaad07fd9000ce7);
+        
+
+        circle_marker_5ca6ce4355d29afc4f211ae776f19dae.bindPopup(popup_9220726ce05cbaf3c6d35cf522d51c91)
+        ;
+
+        
+    
+    
+            var circle_marker_e2e290bab60d0d0d6719a7fa79fd5858 = L.circleMarker(
+                [33.878689, 35.5471748],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_79d96533da329c391febba50bd63476a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e28efab764c6bff557bd0d789070161 = $(`<div id="html_7e28efab764c6bff557bd0d789070161" style="width: 100.0%; height: 100.0%;">School of Crafts and Arts, Dekwaneh</div>`)[0];
+            popup_79d96533da329c391febba50bd63476a.setContent(html_7e28efab764c6bff557bd0d789070161);
+        
+
+        circle_marker_e2e290bab60d0d0d6719a7fa79fd5858.bindPopup(popup_79d96533da329c391febba50bd63476a)
+        ;
+
+        
+    
+    
+            var circle_marker_64345d7dda253fda3b1228eee6d1ccd5 = L.circleMarker(
+                [33.9010343, 35.7507271],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_8d1a981ecc3c73b7e5093cea724000b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_277e30465c9f1c4f3cea78f2d9792973 = $(`<div id="html_277e30465c9f1c4f3cea78f2d9792973" style="width: 100.0%; height: 100.0%;">Mtein Technical School</div>`)[0];
+            popup_8d1a981ecc3c73b7e5093cea724000b0.setContent(html_277e30465c9f1c4f3cea78f2d9792973);
+        
+
+        circle_marker_64345d7dda253fda3b1228eee6d1ccd5.bindPopup(popup_8d1a981ecc3c73b7e5093cea724000b0)
+        ;
+
+        
+    
+    
+            var circle_marker_63bff3e9025f1e469a84d58a23e79f39 = L.circleMarker(
+                [33.9271591, 35.6618421],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_536423a0867e2f466f1a60127619af39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_394003a8fc697394c61187417afd7c4c = $(`<div id="html_394003a8fc697394c61187417afd7c4c" style="width: 100.0%; height: 100.0%;">Beit Chabab Technical Institute</div>`)[0];
+            popup_536423a0867e2f466f1a60127619af39.setContent(html_394003a8fc697394c61187417afd7c4c);
+        
+
+        circle_marker_63bff3e9025f1e469a84d58a23e79f39.bindPopup(popup_536423a0867e2f466f1a60127619af39)
+        ;
+
+        
+    
+    
+            var circle_marker_e2c4781213611988cddedbf9bd8eb334 = L.circleMarker(
+                [33.8663015, 35.4927741],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_e261e010907c14c51b72975a99cb0dcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8e399e6473883d147ca56692ab1a488 = $(`<div id="html_c8e399e6473883d147ca56692ab1a488" style="width: 100.0%; height: 100.0%;">IPNET - Bir Hassan</div>`)[0];
+            popup_e261e010907c14c51b72975a99cb0dcb.setContent(html_c8e399e6473883d147ca56692ab1a488);
+        
+
+        circle_marker_e2c4781213611988cddedbf9bd8eb334.bindPopup(popup_e261e010907c14c51b72975a99cb0dcb)
+        ;
+
+        
+    
+    
+            var circle_marker_19d095b70fd241c80c6fb08ef3848d16 = L.circleMarker(
+                [33.8662926, 35.4927889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_c333bfc94fb1e541005cf6bde8d32331 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fb2a518385300c5af55cc4ccad2aacb = $(`<div id="html_8fb2a518385300c5af55cc4ccad2aacb" style="width: 100.0%; height: 100.0%;">Industrial Technical Institute - Bir Hassan</div>`)[0];
+            popup_c333bfc94fb1e541005cf6bde8d32331.setContent(html_8fb2a518385300c5af55cc4ccad2aacb);
+        
+
+        circle_marker_19d095b70fd241c80c6fb08ef3848d16.bindPopup(popup_c333bfc94fb1e541005cf6bde8d32331)
+        ;
+
+        
+    
+    
+            var circle_marker_e96dce758414b0679b7138c2da374eb3 = L.circleMarker(
+                [33.8655866, 35.5018816],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_33ff1d0b3b97e9f8a01ab710e8a486c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41a3679f1509a37482e6eddde02f0995 = $(`<div id="html_41a3679f1509a37482e6eddde02f0995" style="width: 100.0%; height: 100.0%;">Technical Institute for Nursing Care Specialties - Ard Jalloul</div>`)[0];
+            popup_33ff1d0b3b97e9f8a01ab710e8a486c6.setContent(html_41a3679f1509a37482e6eddde02f0995);
+        
+
+        circle_marker_e96dce758414b0679b7138c2da374eb3.bindPopup(popup_33ff1d0b3b97e9f8a01ab710e8a486c6)
+        ;
+
+        
+    
+    
+            var circle_marker_56eaf97a786f57733fec9059ae029563 = L.circleMarker(
+                [33.8657022, 35.5009687],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_d86e986a7d910e1e87f2e56a6d9016a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd4b9ea757021d31af8a43c6605f7488 = $(`<div id="html_fd4b9ea757021d31af8a43c6605f7488" style="width: 100.0%; height: 100.0%;">Technical Institute for Industrial, Commercial and Tourism Specializations - Ard Jalloul</div>`)[0];
+            popup_d86e986a7d910e1e87f2e56a6d9016a2.setContent(html_fd4b9ea757021d31af8a43c6605f7488);
+        
+
+        circle_marker_56eaf97a786f57733fec9059ae029563.bindPopup(popup_d86e986a7d910e1e87f2e56a6d9016a2)
+        ;
+
+        
+    
+    
+            var circle_marker_1f19f12abaac337d066eb94825791df7 = L.circleMarker(
+                [33.8657308, 35.5024455],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_47776203f8a62ce693e12e9c22d0ac09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e82bb9338a7943fbd5b5cd1511b3a7f = $(`<div id="html_3e82bb9338a7943fbd5b5cd1511b3a7f" style="width: 100.0%; height: 100.0%;">Hotelerie Institute - Ard Jalloul</div>`)[0];
+            popup_47776203f8a62ce693e12e9c22d0ac09.setContent(html_3e82bb9338a7943fbd5b5cd1511b3a7f);
+        
+
+        circle_marker_1f19f12abaac337d066eb94825791df7.bindPopup(popup_47776203f8a62ce693e12e9c22d0ac09)
+        ;
+
+        
+    
+    
+            var circle_marker_93a0e2c2fbe09da7bfd94cf2ad45c77b = L.circleMarker(
+                [33.8657022, 35.5009687],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_b9924c0e5579e77e4899d9ea2856ad85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc5c7b0a979ae7415b53a049b4fbf959 = $(`<div id="html_fc5c7b0a979ae7415b53a049b4fbf959" style="width: 100.0%; height: 100.0%;">School of Arts, Tourism, and Commercial Arts - Ard Jalloul</div>`)[0];
+            popup_b9924c0e5579e77e4899d9ea2856ad85.setContent(html_fc5c7b0a979ae7415b53a049b4fbf959);
+        
+
+        circle_marker_93a0e2c2fbe09da7bfd94cf2ad45c77b.bindPopup(popup_b9924c0e5579e77e4899d9ea2856ad85)
+        ;
+
+        
+    
+    
+            var circle_marker_e892ca02752fea6502f81bb44d300ad2 = L.circleMarker(
+                [33.8373984, 35.521622],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_aed6ec309c5a825db1270216ff1b4785 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da49bd45c9f924342668dba3358b7906 = $(`<div id="html_da49bd45c9f924342668dba3358b7906" style="width: 100.0%; height: 100.0%;">Al Imdad Technical Institute</div>`)[0];
+            popup_aed6ec309c5a825db1270216ff1b4785.setContent(html_da49bd45c9f924342668dba3358b7906);
+        
+
+        circle_marker_e892ca02752fea6502f81bb44d300ad2.bindPopup(popup_aed6ec309c5a825db1270216ff1b4785)
+        ;
+
+        
+    
+    
+            var circle_marker_29a0ccf0892eceb120f27720c10d228d = L.circleMarker(
+                [33.8468325, 35.4945749],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_1f7a2c43cb203e68e464e63ea84a3a0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ab9bf1babdbeabf542fad59687297b0 = $(`<div id="html_0ab9bf1babdbeabf542fad59687297b0" style="width: 100.0%; height: 100.0%;">Martyr Hassan Kassir Technical Institute</div>`)[0];
+            popup_1f7a2c43cb203e68e464e63ea84a3a0d.setContent(html_0ab9bf1babdbeabf542fad59687297b0);
+        
+
+        circle_marker_29a0ccf0892eceb120f27720c10d228d.bindPopup(popup_1f7a2c43cb203e68e464e63ea84a3a0d)
+        ;
+
+        
+    
+    
+            var circle_marker_f54a62a4fc1192533d26ea99877673ec = L.circleMarker(
+                [33.8212289, 35.739361],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_dd09ffc0c85dfdc9d2448a3f49f42519 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26a0eddd583a7c3023160ee0a710746f = $(`<div id="html_26a0eddd583a7c3023160ee0a710746f" style="width: 100.0%; height: 100.0%;">Hammana Technical Institute</div>`)[0];
+            popup_dd09ffc0c85dfdc9d2448a3f49f42519.setContent(html_26a0eddd583a7c3023160ee0a710746f);
+        
+
+        circle_marker_f54a62a4fc1192533d26ea99877673ec.bindPopup(popup_dd09ffc0c85dfdc9d2448a3f49f42519)
+        ;
+
+        
+    
+    
+            var circle_marker_4aea0fc12fda7e5506c567f6e767e654 = L.circleMarker(
+                [34.1381553, 35.6558275],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_7b8abfc73517d6f9bc2d9b7114afae51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b9c252b641bcf36256c108f26338d65 = $(`<div id="html_5b9c252b641bcf36256c108f26338d65" style="width: 100.0%; height: 100.0%;">Eddeh Technical School</div>`)[0];
+            popup_7b8abfc73517d6f9bc2d9b7114afae51.setContent(html_5b9c252b641bcf36256c108f26338d65);
+        
+
+        circle_marker_4aea0fc12fda7e5506c567f6e767e654.bindPopup(popup_7b8abfc73517d6f9bc2d9b7114afae51)
+        ;
+
+        
+    
+    
+            var circle_marker_c2b56f4822dd67dd2df7f6e3a9fd8b03 = L.circleMarker(
+                [34.1383246, 35.6559151],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_43abffb0608f9e00c97d3b3c4c5a32c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d538a3821dd05c7f01a5271a022032c4 = $(`<div id="html_d538a3821dd05c7f01a5271a022032c4" style="width: 100.0%; height: 100.0%;">Eddeh Technical Institute</div>`)[0];
+            popup_43abffb0608f9e00c97d3b3c4c5a32c9.setContent(html_d538a3821dd05c7f01a5271a022032c4);
+        
+
+        circle_marker_c2b56f4822dd67dd2df7f6e3a9fd8b03.bindPopup(popup_43abffb0608f9e00c97d3b3c4c5a32c9)
+        ;
+
+        
+    
+    
+            var circle_marker_80fba59fda0fc5de4ef82bd096c7f271 = L.circleMarker(
+                [33.7582024, 35.5629563],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_ff7f52778138b98816f62dc6c206a292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_368cf8b3cef6b7280de5ad0c5e3aee10 = $(`<div id="html_368cf8b3cef6b7280de5ad0c5e3aee10" style="width: 100.0%; height: 100.0%;">Baysour Technical School</div>`)[0];
+            popup_ff7f52778138b98816f62dc6c206a292.setContent(html_368cf8b3cef6b7280de5ad0c5e3aee10);
+        
+
+        circle_marker_80fba59fda0fc5de4ef82bd096c7f271.bindPopup(popup_ff7f52778138b98816f62dc6c206a292)
+        ;
+
+        
+    
+    
+            var circle_marker_9c5cc8124911e842ca04282019aa1542 = L.circleMarker(
+                [33.7832299, 35.5231992],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_3453437bb95987a3c1387133c521eb12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d0a46c231aa1762fe8ff125b0ef4f7a = $(`<div id="html_8d0a46c231aa1762fe8ff125b0ef4f7a" style="width: 100.0%; height: 100.0%;">Nursing Technical Institute - Bchamoun</div>`)[0];
+            popup_3453437bb95987a3c1387133c521eb12.setContent(html_8d0a46c231aa1762fe8ff125b0ef4f7a);
+        
+
+        circle_marker_9c5cc8124911e842ca04282019aa1542.bindPopup(popup_3453437bb95987a3c1387133c521eb12)
+        ;
+
+        
+    
+    
+            var circle_marker_221f1790d7f4b4fa07ab9af699cd52e3 = L.circleMarker(
+                [33.9666994, 35.6952695],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_50ad8758c1ff3f5c5923ab1c896f6127 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e32702faebab6cf34adfccc80bd58011 = $(`<div id="html_e32702faebab6cf34adfccc80bd58011" style="width: 100.0%; height: 100.0%;">Ajaltoun Technical Institute</div>`)[0];
+            popup_50ad8758c1ff3f5c5923ab1c896f6127.setContent(html_e32702faebab6cf34adfccc80bd58011);
+        
+
+        circle_marker_221f1790d7f4b4fa07ab9af699cd52e3.bindPopup(popup_50ad8758c1ff3f5c5923ab1c896f6127)
+        ;
+
+        
+    
+    
+            var circle_marker_55b650612866d78be2e5aa9d5d8dee53 = L.circleMarker(
+                [34.0701474, 35.688275],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_b5c46ac2432f5edc61dc10ba8185128e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39e9fcb1c43c704cbd19baa2fb1970db = $(`<div id="html_39e9fcb1c43c704cbd19baa2fb1970db" style="width: 100.0%; height: 100.0%;">Maaysara Technical Institute</div>`)[0];
+            popup_b5c46ac2432f5edc61dc10ba8185128e.setContent(html_39e9fcb1c43c704cbd19baa2fb1970db);
+        
+
+        circle_marker_55b650612866d78be2e5aa9d5d8dee53.bindPopup(popup_b5c46ac2432f5edc61dc10ba8185128e)
+        ;
+
+        
+    
+    
+            var circle_marker_c4d71e3cfd92d6d639dfd78b37da001a = L.circleMarker(
+                [34.4692048, 36.1709183],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_5efaeff112660a56830a78809bc1bd41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aeee08259da644b7b1271e4363bc098 = $(`<div id="html_1aeee08259da644b7b1271e4363bc098" style="width: 100.0%; height: 100.0%;">Mechmoch Technical School</div>`)[0];
+            popup_5efaeff112660a56830a78809bc1bd41.setContent(html_1aeee08259da644b7b1271e4363bc098);
+        
+
+        circle_marker_c4d71e3cfd92d6d639dfd78b37da001a.bindPopup(popup_5efaeff112660a56830a78809bc1bd41)
+        ;
+
+        
+    
+    
+            var circle_marker_c15729e45589b6760ff75055edad7cc7 = L.circleMarker(
+                [34.5611984, 36.3571486],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_74a7cbe29b5c54a87fda83c1d3b1f5c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c088fbfca9b3a11614fcaa57d322cdd = $(`<div id="html_1c088fbfca9b3a11614fcaa57d322cdd" style="width: 100.0%; height: 100.0%;">Akroum Technical Institute</div>`)[0];
+            popup_74a7cbe29b5c54a87fda83c1d3b1f5c0.setContent(html_1c088fbfca9b3a11614fcaa57d322cdd);
+        
+
+        circle_marker_c15729e45589b6760ff75055edad7cc7.bindPopup(popup_74a7cbe29b5c54a87fda83c1d3b1f5c0)
+        ;
+
+        
+    
+    
+            var circle_marker_9fbdc2742be88c24ac1842cdfd6d85c9 = L.circleMarker(
+                [34.586917, 36.2325632],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_525d52fd86fd186af09d7f6764e747ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9280f3e6e5c4e846f0f4c3fef5c23306 = $(`<div id="html_9280f3e6e5c4e846f0f4c3fef5c23306" style="width: 100.0%; height: 100.0%;">Al Bire Technical Institute</div>`)[0];
+            popup_525d52fd86fd186af09d7f6764e747ed.setContent(html_9280f3e6e5c4e846f0f4c3fef5c23306);
+        
+
+        circle_marker_9fbdc2742be88c24ac1842cdfd6d85c9.bindPopup(popup_525d52fd86fd186af09d7f6764e747ed)
+        ;
+
+        
+    
+    
+            var circle_marker_26c47f95d6e423cc0ff511538e3a61c4 = L.circleMarker(
+                [34.5845439, 36.0546531],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_70a099bd9d9446a6228c19de2148dba3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdad43dfac0e0248644d0e9e8f6e7763 = $(`<div id="html_cdad43dfac0e0248644d0e9e8f6e7763" style="width: 100.0%; height: 100.0%;">AL Haysa Technical Institute</div>`)[0];
+            popup_70a099bd9d9446a6228c19de2148dba3.setContent(html_cdad43dfac0e0248644d0e9e8f6e7763);
+        
+
+        circle_marker_26c47f95d6e423cc0ff511538e3a61c4.bindPopup(popup_70a099bd9d9446a6228c19de2148dba3)
+        ;
+
+        
+    
+    
+            var circle_marker_4ecef2f5555d1068f44ccd527cc0e88c = L.circleMarker(
+                [34.4831001, 36.0337655],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_26850b3f03b4e7834990bfa94d8d674c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad2b3fd19163b54b7b58ab15618ce077 = $(`<div id="html_ad2b3fd19163b54b7b58ab15618ce077" style="width: 100.0%; height: 100.0%;">Berkayel Technical Institute</div>`)[0];
+            popup_26850b3f03b4e7834990bfa94d8d674c.setContent(html_ad2b3fd19163b54b7b58ab15618ce077);
+        
+
+        circle_marker_4ecef2f5555d1068f44ccd527cc0e88c.bindPopup(popup_26850b3f03b4e7834990bfa94d8d674c)
+        ;
+
+        
+    
+    
+            var circle_marker_5f04247994c70eab9b191b3d05609ef5 = L.circleMarker(
+                [34.4713481, 36.0407462],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_474a692b04e878a93e3ac4dcd45d8312 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3c7129248807bc916a400ec6c0f6cda = $(`<div id="html_a3c7129248807bc916a400ec6c0f6cda" style="width: 100.0%; height: 100.0%;">Bzal Technical Institute</div>`)[0];
+            popup_474a692b04e878a93e3ac4dcd45d8312.setContent(html_a3c7129248807bc916a400ec6c0f6cda);
+        
+
+        circle_marker_5f04247994c70eab9b191b3d05609ef5.bindPopup(popup_474a692b04e878a93e3ac4dcd45d8312)
+        ;
+
+        
+    
+    
+            var circle_marker_4ca716984ae7d55c6567d6232795bcad = L.circleMarker(
+                [34.6243151, 36.2267898],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_47dd68eaa0c5e1f6da175ee25c64da6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a78cb51c7fc336ee89191d1d02b31788 = $(`<div id="html_a78cb51c7fc336ee89191d1d02b31788" style="width: 100.0%; height: 100.0%;">Saydat al Kalaa Technical Institute</div>`)[0];
+            popup_47dd68eaa0c5e1f6da175ee25c64da6e.setContent(html_a78cb51c7fc336ee89191d1d02b31788);
+        
+
+        circle_marker_4ca716984ae7d55c6567d6232795bcad.bindPopup(popup_47dd68eaa0c5e1f6da175ee25c64da6e)
+        ;
+
+        
+    
+    
+            var circle_marker_a04769e7a401d4bd3dda57a90bf14d08 = L.circleMarker(
+                [34.5255902, 36.2394222],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_c164521d86e3e4bf2c5d446aa0e2f6fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1953e9d5602d9824e9fbd86e1744e4d1 = $(`<div id="html_1953e9d5602d9824e9fbd86e1744e4d1" style="width: 100.0%; height: 100.0%;">Old Akkar Technical Institute</div>`)[0];
+            popup_c164521d86e3e4bf2c5d446aa0e2f6fe.setContent(html_1953e9d5602d9824e9fbd86e1744e4d1);
+        
+
+        circle_marker_a04769e7a401d4bd3dda57a90bf14d08.bindPopup(popup_c164521d86e3e4bf2c5d446aa0e2f6fe)
+        ;
+
+        
+    
+    
+            var circle_marker_119b74d797a6c2ccbb76bdc2ec853f82 = L.circleMarker(
+                [34.4822679, 36.0877154],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_cf615562b25b9033c5a16d2b796b2f46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_372afc39ae852330ea7a5564ac68ba27 = $(`<div id="html_372afc39ae852330ea7a5564ac68ba27" style="width: 100.0%; height: 100.0%;">Ein Dahab Technical Institute</div>`)[0];
+            popup_cf615562b25b9033c5a16d2b796b2f46.setContent(html_372afc39ae852330ea7a5564ac68ba27);
+        
+
+        circle_marker_119b74d797a6c2ccbb76bdc2ec853f82.bindPopup(popup_cf615562b25b9033c5a16d2b796b2f46)
+        ;
+
+        
+    
+    
+            var circle_marker_01e44d5e0ba577ac8f1dc79a221f23b8 = L.circleMarker(
+                [34.4740435, 36.1758263],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_ca4e92f375cf66487dbff3bc37f63fa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd8a41a53b29072d8ae56a1f8a854ebc = $(`<div id="html_cd8a41a53b29072d8ae56a1f8a854ebc" style="width: 100.0%; height: 100.0%;">Fonaydek Technical Institute</div>`)[0];
+            popup_ca4e92f375cf66487dbff3bc37f63fa1.setContent(html_cd8a41a53b29072d8ae56a1f8a854ebc);
+        
+
+        circle_marker_01e44d5e0ba577ac8f1dc79a221f23b8.bindPopup(popup_ca4e92f375cf66487dbff3bc37f63fa1)
+        ;
+
+        
+    
+    
+            var circle_marker_10a8461045f16b603d5cb9c295a5e88c = L.circleMarker(
+                [34.4245943, 36.0176323],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_76455a74e256670be791c4343f9b3571 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64049bde495ccd43d0739916cb235f46 = $(`<div id="html_64049bde495ccd43d0739916cb235f46" style="width: 100.0%; height: 100.0%;">Mechmoch Technical Institute</div>`)[0];
+            popup_76455a74e256670be791c4343f9b3571.setContent(html_64049bde495ccd43d0739916cb235f46);
+        
+
+        circle_marker_10a8461045f16b603d5cb9c295a5e88c.bindPopup(popup_76455a74e256670be791c4343f9b3571)
+        ;
+
+        
+    
+    
+            var circle_marker_e4326d0496029134f794cc556f1ff0b6 = L.circleMarker(
+                [34.6461079, 36.3325369],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a0bbd8c9ae1aa4e9260012096550976);
+        
+    
+        var popup_890e5b9446f502127d58f10a1b1f3dbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dd1c37a747d31992fa1fef9760a9095 = $(`<div id="html_4dd1c37a747d31992fa1fef9760a9095" style="width: 100.0%; height: 100.0%;">Martyr Rafik Hariri Technical Institute - Machta Hammoud</div>`)[0];
+            popup_890e5b9446f502127d58f10a1b1f3dbb.setContent(html_4dd1c37a747d31992fa1fef9760a9095);
+        
+
+        circle_marker_e4326d0496029134f794cc556f1ff0b6.bindPopup(popup_890e5b9446f502127d58f10a1b1f3dbb)
+        ;
+
+        
+    
+</script>
+</html>
